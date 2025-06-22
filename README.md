@@ -257,7 +257,6 @@ class RaneemAlThaqafi:
             "AI Research Projects",
             "Open Source AI Tools",
             "Medical AI Applications", 
-            "Space Technology Solutions",
             "Educational AI Platforms"
         ]
 

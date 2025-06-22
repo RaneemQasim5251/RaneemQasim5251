@@ -12,7 +12,7 @@
 <tr>
 <td align="center" width="200">
 <img src="https://img.shields.io/badge/🎓_EDUCATION-Computer_Science_Graduate-FFD700?style=for-the-badge&logo=graduationcap&logoColor=black&labelColor=4B0082"/>
-<br><b>🏆 Unlocked!</b>
+<br><b>🏆 Achievement Unlocked!</b>
 </td>
 <td align="center" width="200">
 <img src="https://img.shields.io/badge/💼_CURRENT_ROLE-Jr._Data_Scientist-00CED1?style=for-the-badge&logo=databricks&logoColor=white&labelColor=008B8B"/>
@@ -77,10 +77,10 @@
 
 | 🎮 Quest Category | 🎯 Current Mission | 📈 Progress | 🏆 Achievements |
 |:---:|:---:|:---:|:---:|
-| 🤖 **AI Voice Assistants** | Real-time Streaming | ![Progress](https://progress-bar.dev/95/?title=Done&width=120&color=babaca) | 🥇 Siraj Deployed |
-| 🧠 **Brain-Computer Interface** | Thoughts to Words | ![Progress](https://progress-bar.dev/100/?title=Complete&width=120&color=00ff00) | 🚀 30 WPM Speed |
-| 👁️ **Computer Vision** | Face Liveness Detection | ![Progress](https://progress-bar.dev/100/?title=Complete&width=120&color=00ff00) | 🫀 rPPG Master |
-| 🏥 **Medical AI** | Biometric Processing | ![Progress](https://progress-bar.dev/88/?title=In%20Progress&width=120&color=yellow) | 📊 Signal Analysis |
+| 🤖 **AI Voice Assistants** | Real-time Streaming | `████████████████████░` 95% | 🥇 Siraj Deployed |
+| 🧠 **Brain-Computer Interface** | Thoughts to Words | `█████████████████████` 100% | 🚀 30 WPM Speed |
+| 👁️ **Computer Vision** | Face Liveness Detection | `█████████████████████` 100% | 🫀 rPPG Master |
+| 🏥 **Medical AI** | Biometric Processing | `██████████████████░░░` 88% | 📊 Signal Analysis |
 
 </div>
 
@@ -123,21 +123,21 @@
 <tr>
 <td align="center">
 <img src="https://img.shields.io/badge/🗣️_NLP-Natural_Language_Master-4285F4?style=for-the-badge&logoColor=white"/>
-<br>![Progress](https://progress-bar.dev/95/?title=Mastered&width=100&color=4285F4)
+<br><code>████████████████████░</code> <strong>95% Mastered</strong>
 </td>
 <td align="center">
 <img src="https://img.shields.io/badge/👁️_Computer_Vision-Visual_AI_Expert-FF6B6B?style=for-the-badge&logoColor=white"/>
-<br>![Progress](https://progress-bar.dev/98/?title=Expert&width=100&color=FF6B6B)
+<br><code>█████████████████████</code> <strong>98% Expert</strong>
 </td>
 </tr>
 <tr>
 <td align="center">
 <img src="https://img.shields.io/badge/🧬_Deep_Learning-Neural_Network_Guru-8E2DE2?style=for-the-badge&logoColor=white"/>
-<br>![Progress](https://progress-bar.dev/93/?title=Advanced&width=100&color=8E2DE2)
+<br><code>███████████████████░░</code> <strong>93% Advanced</strong>
 </td>
 <td align="center">
 <img src="https://img.shields.io/badge/📊_Signal_Processing-Bio_Signal_Master-2ECC71?style=for-the-badge&logoColor=white"/>
-<br>![Progress](https://progress-bar.dev/90/?title=Proficient&width=100&color=2ECC71)
+<br><code>██████████████████░░░</code> <strong>90% Proficient</strong>
 </td>
 </tr>
 </table>

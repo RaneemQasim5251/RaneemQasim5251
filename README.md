@@ -1,4 +1,4 @@
-# 👋 Hi there, I'm Raneem Qasim Al-Thaqafi!
+# 👋 Hi there, I'm Raneem Al-Thaqafi!
 
 <div align="center">
   

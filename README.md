@@ -54,7 +54,7 @@ I'm a passionate **AI & Machine Learning Specialist** with expertise in developi
   <tr>
     <td><strong>🤖 ML Specialist</strong></td>
     <td><strong>Innovation River</strong></td>
-    <td><strong>Jan 2025 - Present</strong></td>
+    <td><strong>Jan 2025 - March 2025</strong></td>
   </tr>
   <tr>
     <td colspan="3">

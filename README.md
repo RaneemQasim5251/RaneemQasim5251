@@ -12,7 +12,7 @@
 <tr>
 <td align="center" width="200">
 <img src="https://img.shields.io/badge/🎓_EDUCATION-Computer_Science_Graduate-FFD700?style=for-the-badge&logo=graduationcap&logoColor=black&labelColor=4B0082"/>
-<br><b>🏆 Achievement Unlocked!</b>
+<br><b>🏆 Unlocked!</b>
 </td>
 <td align="center" width="200">
 <img src="https://img.shields.io/badge/💼_CURRENT_ROLE-Jr._Data_Scientist-00CED1?style=for-the-badge&logo=databricks&logoColor=white&labelColor=008B8B"/>

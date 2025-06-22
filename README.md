@@ -110,8 +110,62 @@ I'm a passionate **AI & Machine Learning Specialist** with expertise in developi
 ## 🏆 Featured Projects
 
 ### 🎙️ [Siraj - Arabic Voice Assistant](https://github.com/RaneemQasim5251/siraj-voice-assistant)
-<img align="right" width="300" src="![WhatsApp Image 2025-06-20 at 01 41 45_ab8de39c](https://github.com/user-attachments/assets/23f8f5d1-d3da-4e25-9049-16e1dc8c51ea)
-" />
+<img align="right" width="300" src="https://via.placeholder.com/300x200/FF6B6B/FFFFFF?text=Siraj+AI+Assistant" />
+
+->
+
+### 🎙️ [Siraj - Arabic Voice Assistant](https://github.com/RaneemQasim5251/siraj-voice-assistant)
+<img align="right" width="300" src="https://raw.githubusercontent.com/RaneemQasim5251/siraj-voice-assistant/main/assets/siraj-logo.svg" alt="Siraj AI Assistant" />
+
+<div align="right" width="300">
+  <svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background gradient -->
+    <defs>
+      <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color:#FF6B6B;stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#4ECDC4;stop-opacity:1" />
+      </linearGradient>
+      <linearGradient id="micGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color:#FFD93D;stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#FF6B6B;stop-opacity:1" />
+      </linearGradient>
+    </defs>
+    
+    <!-- Background -->
+    <rect width="300" height="200" fill="url(#bgGradient)" rx="15"/>
+    
+    <!-- Microphone -->
+    <ellipse cx="150" cy="80" rx="25" ry="35" fill="url(#micGradient)"/>
+    <rect x="140" y="115" width="20" height="30" fill="#333"/>
+    <rect x="125" y="140" width="50" height="8" fill="#333" rx="4"/>
+    
+    <!-- Sound waves -->
+    <path d="M 180 60 Q 200 80 180 100" stroke="#FFF" stroke-width="3" fill="none" opacity="0.8"/>
+    <path d="M 190 50 Q 220 80 190 110" stroke="#FFF" stroke-width="2" fill="none" opacity="0.6"/>
+    <path d="M 200 40 Q 240 80 200 120" stroke="#FFF" stroke-width="2" fill="none" opacity="0.4"/>
+    
+    <path d="M 120 60 Q 100 80 120 100" stroke="#FFF" stroke-width="3" fill="none" opacity="0.8"/>
+    <path d="M 110 50 Q 80 80 110 110" stroke="#FFF" stroke-width="2" fill="none" opacity="0.6"/>
+    <path d="M 100 40 Q 60 80 100 120" stroke="#FFF" stroke-width="2" fill="none" opacity="0.4"/>
+    
+    <!-- Arabic text "سراج" -->
+    <text x="150" y="180" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">سراج</text>
+    
+    <!-- AI Elements -->
+    <circle cx="80" cy="40" r="8" fill="#FFD93D" opacity="0.8">
+      <animate attributeName="opacity" values="0.8;0.3;0.8" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="220" cy="40" r="6" fill="#4ECDC4" opacity="0.7">
+      <animate attributeName="opacity" values="0.7;0.2;0.7" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="60" cy="160" r="5" fill="#FF6B6B" opacity="0.6">
+      <animate attributeName="opacity" values="0.6;0.1;0.6" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="240" cy="160" r="7" fill="#FFD93D" opacity="0.5">
+      <animate attributeName="opacity" values="0.5;0.1;0.5" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+  </svg>
+</div>
 
 **Advanced Arabic AI Assistant for Riyadh Metro Navigation**
 - 🤖 **Gemini Live API** integration for real-time voice interaction

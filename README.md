@@ -322,6 +322,45 @@ I'm always excited to discuss **AI innovations**, **research collaborations**, a
 
 ![Profile Views](https://komarev.com/ghpvc/?username=RaneemQasim5251&color=blueviolet&style=for-the-badge)
 [![Stars](https://img.shields.io/github/stars/RaneemQasim5251?style=for-the-badge&color=yellow)](https://github.com/RaneemQasim5251)
-[![Followers](https://img.shields.io/github/followers/RaneemQasim5251?style=for-the-badge&color=blue)](https://github.com/RaneemQasim5251)
+<table align="center">
+<tr>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/🤝_COLLABORATE-Join_My_Party-FF6B35?style=for-the-badge&logoColor=white"/>
+<br>**Ready for Co-op Mode?**
+<br>Let's team up on AI projects!
+</td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/🎯_HIRE-Recruit_for_Quest-FFD700?style=for-the-badge&logoColor=black"/>
+<br>**Need an AI Specialist?**
+<br>I'm available for epic challenges!
+</td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/🎓_MENTOR-Train_New_Heroes-00CED1?style=for-the-badge&logoColor=white"/>
+<br>**Want to Level Up?**
+<br>I love sharing knowledge!
+</td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/🚀_RESEARCH-Explore_New_Worlds-9370DB?style=for-the-badge&logoColor=white"/>
+<br>**Research Together?**
+<br>Let's push AI boundaries!
+</td>
+</tr>
+</table>
 
-</div>
+### 🌟 Final Boss Quote
+
+> *"In the game of AI, you either innovate or become obsolete. I choose to be the innovation."*
+> 
+> **Level 99 AI Engineer - Raneem Al-Thaqafi** 🎮
+
+---
+
+### 🎊 Thanks for Visiting My Profile!
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&text=Game%20Over%20-%20Continue?&fontSize=30&fontColor=fff&animation=twinkling&fontAlignY=70"/>
+
+**🎮 Press START to connect:** [![LinkedIn](https://img.shields.io/badge/🔗_START_GAME-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-profile) [![Email](https://img.shields.io/badge/📧_SEND_MESSAGE-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:althaqafi.raneem@gmail.com)
+
+*Made with ❤️ and lots of ☕ by an AI enthusiast who believes technology should be fun!*
+
+</div> 

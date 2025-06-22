@@ -1,212 +1,292 @@
-# 👋 Hi there, I'm Raneem Al-Thaqafi!
-
 <div align="center">
-  
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=F7931E&center=true&vCenter=true&width=600&lines=AI+%26+Machine+Learning+Specialist;Deep+Learning+Engineer;Computer+Vision+Expert;NLP+Researcher;Innovation+Leader)](https://git.io/typing-svg)
+
+# 🎮 Welcome to Raneem's AI Universe! 🚀
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Orbitron&size=35&duration=3000&pause=1000&color=FF6B35&center=true&vCenter=true&width=800&lines=🤖+AI+%26+Machine+Learning+Specialist;🧠+Deep+Learning+Engineer;👁️+Computer+Vision+Expert;🗣️+NLP+Researcher;🏆+Innovation+Leader;🎯+Problem+Solver+Extraordinaire)](https://git.io/typing-svg)
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=150&section=header&text=Level%2099%20AI%20Engineer&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35"/>
+
+## 🎯 Player Stats
+
+<table align="center">
+<tr>
+<td align="center" width="200">
+<img src="https://img.shields.io/badge/🎓_EDUCATION-Computer_Science_Graduate-FFD700?style=for-the-badge&logo=graduationcap&logoColor=black&labelColor=4B0082"/>
+<br><b>🏆 Achievement Unlocked!</b>
+</td>
+<td align="center" width="200">
+<img src="https://img.shields.io/badge/💼_CURRENT_ROLE-Jr._Data_Scientist-00CED1?style=for-the-badge&logo=databricks&logoColor=white&labelColor=008B8B"/>
+<br><b>🚀 Current Quest</b>
+</td>
+<td align="center" width="200">
+<img src="https://img.shields.io/badge/🏅_COMPETITIONS-5+_Wins-FF4500?style=for-the-badge&logo=trophy&logoColor=white&labelColor=DC143C"/>
+<br><b>⚔️ Battle Record</b>
+</td>
+</tr>
+</table>
+
+### 🎮 Quick Access Menu
+[![🔗 LinkedIn](https://img.shields.io/badge/🔗_LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/raneem-althaqafi/)
+[![📧 Email](https://img.shields.io/badge/📧_Email-Message-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:althaqafi.raneem@gmail.com)
+[![🐦 Twitter](https://img.shields.io/badge/🐦_Twitter-Follow-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/raneem_qasim)
+[![💻 GitHub](https://img.shields.io/badge/💻_GitHub-Explore-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RaneemQasim5251)
 
 </div>
 
-<div align="center">
-  
-🎓 **Computer Science Graduate** • 🚀 **AI Engineer**
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,20,6&height=2"/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/raneem-althaqafi/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:althaqafi.raneem@gmail.com)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/raneem_qasim)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RaneemQasim5251)
+## 🎮 Character Profile
 
-</div>
+<table align="center" width="100%">
+<tr>
+<td width="70%">
 
----
-
-## 🚀 About Me
-
+### 👤 Bio
 > *"Bridging theoretical knowledge with real-world AI applications to shape the future through ethical, impactful solutions."*
 
-I'm a passionate **AI & Machine Learning Specialist** with expertise in developing cutting-edge AI systems that solve complex real-world problems. Currently working as a **Jr. Data Scientist at Tuwaiq Academy**, where I developed **Siraj**, an advanced Arabic voice assistant for Riyadh Metro navigation.
+🎯 **Current Mission**: Building **Siraj** - Advanced Arabic AI Assistant for Riyadh Metro  
+🌟 **Specialty**: Transforming complex AI research into real-world solutions  
+⚡ **Superpower**: Making machines understand Arabic and human emotions  
+🏆 **Achievement**: First Place Worldwide in Gravity Hackathon
 
-### 🎯 Current Focus
-- 🤖 **AI Voice Assistants** - Real-time streaming
+### 🎯 Current Focus Quests
+- 🤖 **AI Voice Assistants** - Real-time streaming mastery
 - 🧠 **Brain-Computer Interfaces** - Transforming thoughts into words
 - 👁️ **Computer Vision** - Face liveness detection using rPPG
 - 🏥 **Medical AI** - Biometric signal processing and classification
 
----
+</td>
+<td width="30%">
 
-## 💼 Professional Experience
+### 📊 Core Stats
+```
+🧠 AI/ML Mastery     ████████████ 95%
+🎯 Problem Solving   ███████████░ 92%  
+🚀 Innovation        ████████████ 98%
+🤝 Leadership        ██████████░░ 87%
+🌍 Impact            ███████████░ 90%
+```
 
-<table>
-  <tr>
-    <td><strong>🔬 Jr. Data Scientist</strong></td>
-    <td><strong>Tuwaiq Academy</strong></td>
-    <td><strong>Apr 2025 - Present</strong></td>
-  </tr>
-  <tr>
-    <td colspan="3">
-      • Developed <strong>Siraj</strong> - Arabic live AI metro assistant using Gemini Live API<br>
-      • Processed real-time data for 83 stations and 2,700+ locations<br>
-      • Engineered complete hardware solution with Raspberry Pi 5
-    </td>
-  </tr>
+</td>
+</tr>
 </table>
 
-<table>
-  <tr>
-    <td><strong>🤖 ML Specialist</strong></td>
-    <td><strong>Innovation River</strong></td>
-    <td><strong>Jan 2025 - March 2025</strong></td>
-  </tr>
-  <tr>
-    <td colspan="3">
-      • Contributing to <strong>Multazam</strong> - Hajj/Umrah system with real-time face recognition<br>
-      • Attendance monitoring and violation detection systems
-    </td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <td><strong>🎯 AI Specialist</strong></td>
-    <td><strong>Outlier AI</strong></td>
-    <td><strong>Dec 2024 - Jan 2025</strong></td>
-  </tr>
-  <tr>
-    <td colspan="3">
-      • Delivered AI model support and automation solutions<br>
-      • Freelance AI consultancy and development
-    </td>
-  </tr>
-</table>
-
----
-
-## 🛠️ Tech Stack & Expertise
+## 🎯 Active Quests & Skills
 
 <div align="center">
 
-### 🧠 AI & Machine Learning
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=OpenCV&logoColor=white)
-
-### 🗣️ Specialized AI
-![NLP](https://img.shields.io/badge/NLP-4285F4?style=for-the-badge&logo=google&logoColor=white)
-![Computer Vision](https://img.shields.io/badge/Computer_Vision-FF6B6B?style=for-the-badge&logo=opencv&logoColor=white)
-![Deep Learning](https://img.shields.io/badge/Deep_Learning-8E2DE2?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Signal Processing](https://img.shields.io/badge/Signal_Processing-2ECC71?style=for-the-badge&logo=python&logoColor=white)
-
-### 🔧 Development & Tools
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Azure](https://img.shields.io/badge/Microsoft_Azure-0089D0?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+| 🎮 Quest Category | 🎯 Current Mission | 📈 Progress | 🏆 Achievements |
+|:---:|:---:|:---:|:---:|
+| 🤖 **AI Voice Assistants** | Real-time Streaming | ![Progress](https://progress-bar.dev/95/?title=Done&width=120&color=babaca) | 🥇 Siraj Deployed |
+| 🧠 **Brain-Computer Interface** | Thoughts to Words | ![Progress](https://progress-bar.dev/100/?title=Complete&width=120&color=00ff00) | 🚀 30 WPM Speed |
+| 👁️ **Computer Vision** | Face Liveness Detection | ![Progress](https://progress-bar.dev/100/?title=Complete&width=120&color=00ff00) | 🫀 rPPG Master |
+| 🏥 **Medical AI** | Biometric Processing | ![Progress](https://progress-bar.dev/88/?title=In%20Progress&width=120&color=yellow) | 📊 Signal Analysis |
 
 </div>
 
 ---
 
-## 🏆 Featured Projects
+## 💼 Career Journey & Boss Battles
 
-### 🎙️ [Siraj - Arabic Voice Assistant](https://github.com/RaneemQasim5251/siraj-voice-assistant)
-<img align="right" width="300" src="https://img.shields.io/badge/🎙️_SIRAJ-Arabic_Voice_Assistant-667eea?style=for-the-badge&logo=google-assistant&logoColor=white&labelColor=764ba2&color=667eea" alt="Siraj Voice Assistant" />
+<div align="center">
 
-<div align="right" style="margin-top: 10px;">
-  <img src="https://img.shields.io/badge/🤖-Gemini_Live_API-FF6B35?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/🗺️-Metro_Navigation-3498db?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/🍓-Raspberry_Pi-c2185b?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/🎬-Interactive_Video-00F5FF?style=flat-square&logoColor=white" />
+| 🎮 Level | 🏢 Company | 👤 Role | 📅 Duration | 🎯 Main Quest | 🏆 Achievements |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| **Lv.5** | 🎓 **Tuwaiq Academy** | Jr. Data Scientist | Apr 2025 - Present | 🎙️ Siraj AI Assistant | ✅ 83 Metro Stations + 2,700 Locations |
+| **Lv.4** | 🚀 **Innovation River** | ML Specialist | Jan 2025 - March 2025 | 👁️ Multazam Face Recognition | ✅ Hajj/Umrah Monitoring System |
+| **Lv.3** | 🎯 **Outlier AI** | AI Specialist | Dec 2024 - Jan 2025 | 🤖 Model Support & Automation | ✅ AI Consultancy Solutions |
+
 </div>
 
-**🚀 Advanced Arabic AI Assistant for Riyadh Metro Navigation**
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2"/>
+
+## 🛠️ Tech Arsenal & Skill Tree
+
+<div align="center">
+
+### 🤖 AI & Machine Learning Mastery
+<table>
+<tr>
+<td align="center"><img src="https://img.shields.io/badge/Python-Expert-3776AB?style=for-the-badge&logo=python&logoColor=white"/><br>⭐⭐⭐⭐⭐</td>
+<td align="center"><img src="https://img.shields.io/badge/TensorFlow-Master-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/><br>⭐⭐⭐⭐⭐</td>
+<td align="center"><img src="https://img.shields.io/badge/PyTorch-Advanced-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/><br>⭐⭐⭐⭐☆</td>
+</tr>
+<tr>
+<td align="center"><img src="https://img.shields.io/badge/Scikit--Learn-Expert-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/><br>⭐⭐⭐⭐⭐</td>
+<td align="center"><img src="https://img.shields.io/badge/OpenCV-Master-27338e?style=for-the-badge&logo=OpenCV&logoColor=white"/><br>⭐⭐⭐⭐⭐</td>
+<td align="center"><img src="https://img.shields.io/badge/YOLO-Advanced-00FFFF?style=for-the-badge&logo=yolo&logoColor=black"/><br>⭐⭐⭐⭐☆</td>
+</tr>
+</table>
+
+### 🧠 Specialized Combat Skills
+<table>
+<tr>
+<td align="center">
+<img src="https://img.shields.io/badge/🗣️_NLP-Natural_Language_Master-4285F4?style=for-the-badge&logoColor=white"/>
+<br>![Progress](https://progress-bar.dev/95/?title=Mastered&width=100&color=4285F4)
+</td>
+<td align="center">
+<img src="https://img.shields.io/badge/👁️_Computer_Vision-Visual_AI_Expert-FF6B6B?style=for-the-badge&logoColor=white"/>
+<br>![Progress](https://progress-bar.dev/98/?title=Expert&width=100&color=FF6B6B)
+</td>
+</tr>
+<tr>
+<td align="center">
+<img src="https://img.shields.io/badge/🧬_Deep_Learning-Neural_Network_Guru-8E2DE2?style=for-the-badge&logoColor=white"/>
+<br>![Progress](https://progress-bar.dev/93/?title=Advanced&width=100&color=8E2DE2)
+</td>
+<td align="center">
+<img src="https://img.shields.io/badge/📊_Signal_Processing-Bio_Signal_Master-2ECC71?style=for-the-badge&logoColor=white"/>
+<br>![Progress](https://progress-bar.dev/90/?title=Proficient&width=100&color=2ECC71)
+</td>
+</tr>
+</table>
+
+### ⚔️ Development Weapons
+![Flask](https://img.shields.io/badge/Flask-Lightweight_Warrior-000000?style=for-the-badge&logo=flask&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Container_Master-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-Version_Control_Expert-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-Cloud_Architect-0089D0?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=20,6,12&height=2"/>
+
+## 🎮 Epic Boss Battles (Featured Projects)
+
+<div align="center">
+
+### 🎮 Game Portfolio - Choose Your Adventure!
+
+<table>
+<tr>
+<td width="50%">
+
+### 🎙️ [SIRAJ: The Voice Wizard](https://github.com/RaneemQasim5251/siraj-voice-assistant)
+<img src="https://img.shields.io/badge/🏆_LEVEL_COMPLETED-SIRAJ_DEPLOYED-00ff00?style=for-the-badge&logoColor=black&labelColor=FFD700&color=00ff00"/>
+
+```
+🎯 Mission: Build Arabic AI Assistant for Riyadh Metro
+🌟 Status: ⭐⭐⭐⭐⭐ LEGENDARY
+🚀 Difficulty: Expert Level
+⚡ Power Level: 9500/10000
+```
+
+**🎮 Special Abilities:**
 - 🤖 **Gemini Live API** integration for real-time voice interaction
 - 🗺️ **Smart Navigation** for 83 metro stations and 2,700+ locations  
 - 🍓 **Raspberry Pi** deployment with complete hardware solution
 - 📱 **Multi-platform** support (Desktop, Web, Mobile)
 - 🎬 **Interactive Video** display with dynamic state switching
 
-**Tech:** Python, Gemini Live API, OpenCV, YOLOv8, Flask, Raspberry Pi
+**⚔️ Tech Arsenal:** Python • Gemini Live API • OpenCV • YOLOv8 • Flask • Raspberry Pi
 
----
+</td>
+<td width="50%">
 
-### ❤️ [Heartbeat of Deception - rPPG Liveness Detection](https://github.com/RaneemQasim5251/Heartbeat_Of_Deception_HOD)
-<img align="left" width="300" src="https://img.shields.io/badge/❤️_HEARTBEAT-rPPG_Liveness_Detection-ff9a9e?style=for-the-badge&logo=tensorflow&logoColor=white&labelColor=C2185B&color=ff9a9e" alt="Heartbeat Detection" />
+### ❤️ [HEARTBEAT: The Truth Detector](https://github.com/RaneemQasim5251/Heartbeat_Of_Deception_HOD)
+<img src="https://img.shields.io/badge/🏆_RESEARCH_BOSS-DEFEATED-ff69b4?style=for-the-badge&logoColor=white&labelColor=C2185B&color=ff69b4"/>
 
-<div align="left" style="margin-top: 10px;">
-  <img src="https://img.shields.io/badge/🫀-Heart_Rate_Detection-FF1744?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/🧠-EfficientNet+LSTM-4CAF50?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/👁️-Face_Analysis-2196F3?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/🎯-Real_vs_Fake-E91E63?style=flat-square&logoColor=white" />
-</div>
+```
+🎯 Mission: Detect Fake vs Real Human Hearts
+🌟 Status: ⭐⭐⭐⭐⭐ LEGENDARY  
+🚀 Difficulty: Master Level
+⚡ Power Level: 9200/10000
+```
 
-**🫀 Performance-Enhanced-Quality-rPPG (PEQrPPG) Model**
+**🎮 Special Abilities:**
 - 🫀 **Heart Rate Estimation** from facial videos for liveness detection
 - 🧠 **Hybrid Architecture**: EfficientNet + VGG19 + LSTM + DenseNet
 - 🎯 **High Accuracy** in differentiating real vs fake identities
 - 💻 **Full-Stack Interface** with frontend, backend, and CV integration
 
-**Tech:** Python, TensorFlow, EfficientNet, VGG19, LSTM, Computer Vision
+**⚔️ Tech Arsenal:** Python • TensorFlow • EfficientNet • VGG19 • LSTM • Computer Vision
 
-<br clear="left"/>
+</td>
+</tr>
+<tr>
+<td width="50%">
 
----
+### 🧠 [BCI: The Mind Reader](https://github.com/RaneemQasim5251/brain-computer-interface-project)
+<img src="https://img.shields.io/badge/🏆_BREAKTHROUGH-THOUGHTS_TO_WORDS-9370db?style=for-the-badge&logoColor=white&labelColor=4B0082&color=9370db"/>
 
-### 🧠 [Brain-Computer Interface System](https://github.com/RaneemQasim5251/brain-computer-interface-project)
-<img align="right" width="300" src="https://img.shields.io/badge/🧠_BCI-Brain_Computer_Interface-667eea?style=for-the-badge&logo=microsoft-azure&logoColor=white&labelColor=764ba2&color=667eea" alt="Brain Computer Interface" />
+```
+🎯 Mission: Transform Thoughts into Words
+🌟 Status: ⭐⭐⭐⭐⭐ LEGENDARY
+🚀 Difficulty: God Level  
+⚡ Power Level: 9800/10000
+```
 
-<div align="right" style="margin-top: 10px;">
-  <img src="https://img.shields.io/badge/🚀-9_to_30_WPM-00FF7F?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/🧬-SSVEP_Technology-FF6B35?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/🎮-Interactive_Games-FF1493?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/🔤-Arabic_Keyboard-FFD700?style=flat-square&logoColor=white" />
-</div>
-
-**🧠 Transforming Thoughts into Words using SSVEP Technology**
+**🎮 Special Abilities:**
 - 🚀 **Speed Enhancement**: From 9 to 30 words per minute
 - 🌐 **Social Media Integration** for individuals with severe impairments
 - 🎮 **Interactive Games** for cognitive stimulation
 - 🔤 **Arabic Keyboard** with GPT-Jais API integration
 
-**Tech:** Python, SSVEP, Signal Processing, GPT API, Brain Signals
+**⚔️ Tech Arsenal:** Python • SSVEP • Signal Processing • GPT API • Brain Signals
 
----
+</td>
+<td width="50%">
 
-### 🌌 [PathFinders - Space Debris Solution](https://github.com/RaneemQasim5251/PathFinders) 🥇
-<img align="left" width="300" src="https://img.shields.io/badge/🏆_PATHFINDERS-1st_Place_Worldwide_Winner-1a1a2e?style=for-the-badge&logo=nasa&logoColor=white&labelColor=FFD700&color=1a1a2e" alt="PathFinders Space Debris" />
+### 🌌 [PATHFINDERS: Space Guardian](https://github.com/RaneemQasim5251/PathFinders)
+<img src="https://img.shields.io/badge/🏆_WORLD_CHAMPION-1ST_PLACE_GLOBAL-ffd700?style=for-the-badge&logoColor=black&labelColor=1a1a2e&color=ffd700"/>
 
-<div align="left" style="margin-top: 10px;">
-  <img src="https://img.shields.io/badge/🛰️-Space_Debris_AI-FF5722?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/📊-NASA_Datasets-4FC3F7?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/🥽-VR_Visualization-9C27B0?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/⚡-Real_Time-00FF41?style=flat-square&logoColor=white" />
-</div>
+```
+🎯 Mission: Save Earth from Space Debris  
+🌟 Status: ⭐⭐⭐⭐⭐ WORLD CHAMPION
+🚀 Difficulty: Legendary Level
+⚡ Power Level: 10000/10000 MAX!
+```
 
-**🏆 1st Place Worldwide - Gravity Hackathon Winner**
+**🎮 Special Abilities:**
 - 🛰️ **Deep Learning** for space debris collision prediction
 - 📊 **NASA Datasets** processing and analysis
 - 🧠 **Neural Networks** trained on orbital data
 - 🥽 **Virtual Reality** visualization for debris tracking
 - ⚡ **Real-time Interface** for accurate predictions
 
-**Tech:** Python, Deep Learning, NASA APIs, Neural Networks, VR
+**⚔️ Tech Arsenal:** Python • Deep Learning • NASA APIs • Neural Networks • VR
 
-<br clear="left"/>
+</td>
+</tr>
+</table>
 
----
-
-## 📊 GitHub Statistics
-
-<div align="center">
-  
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=RaneemQasim5251&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RaneemQasim5251&layout=compact&langs_count=8&theme=radical"/>
+### 🎯 Achievement Gallery
+![Achievement](https://img.shields.io/badge/🏆_ACHIEVEMENT-World_Champion_Developer-FFD700?style=for-the-badge&logoColor=black)
+![Achievement](https://img.shields.io/badge/🥇_ACHIEVEMENT-AI_Innovation_Master-FF6B35?style=for-the-badge&logoColor=white)
+![Achievement](https://img.shields.io/badge/🚀_ACHIEVEMENT-Research_Pioneer-00CED1?style=for-the-badge&logoColor=white)
+![Achievement](https://img.shields.io/badge/🧠_ACHIEVEMENT-Mind_Reader_Unlocked-9370DB?style=for-the-badge&logoColor=white)
 
 </div>
 
+---
+
+## 📊 Player Dashboard & Battle Statistics
+
 <div align="center">
-  
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=RaneemQasim5251&theme=radical)](https://git.io/streak-stats)
+
+### 🎮 Gaming Stats Dashboard
+<table>
+<tr>
+<td align="center">
+<img height="200" src="https://github-readme-stats.vercel.app/api?username=RaneemQasim5251&show_icons=true&theme=synthwave&include_all_commits=true&count_private=true&border_radius=15&bg_color=0D1117&title_color=FF6B35&text_color=FFFFFF&icon_color=FFD700"/>
+</td>
+<td align="center">
+<img height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RaneemQasim5251&layout=compact&langs_count=8&theme=synthwave&border_radius=15&bg_color=0D1117&title_color=FF6B35&text_color=FFFFFF"/>
+</td>
+</tr>
+</table>
+
+### 🔥 Coding Streak & Combat Record
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=RaneemQasim5251&theme=synthwave&border_radius=15&background=0D1117&stroke=FF6B35&ring=FFD700&fire=FF6B35&currStreakLabel=FFFFFF&sideLabels=FFFFFF&currStreakNum=FFD700&sideNums=FFD700&dates=FFFFFF)](https://git.io/streak-stats)
+
+### 🏆 Contribution Heatmap - Battle Activity
+![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=RaneemQasim5251&bg_color=0D1117&color=FF6B35&line=FFD700&point=FF6B35&area=true&hide_border=true)
+
+### 🎯 Performance Metrics
+![](https://komarev.com/ghpvc/?username=RaneemQasim5251&color=FF6B35&style=for-the-badge&label=PROFILE+VIEWS)
+![](https://img.shields.io/github/followers/RaneemQasim5251?style=for-the-badge&color=FFD700&labelColor=0D1117&label=FOLLOWERS)
+![](https://img.shields.io/github/stars/RaneemQasim5251?style=for-the-badge&color=00CED1&labelColor=0D1117&label=TOTAL+STARS)
 
 </div>
 
@@ -312,16 +392,14 @@ I'm always excited to discuss **AI innovations**, **research collaborations**, a
 
 </div>
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2"/>
+
+## 🎯 Ready for Your Next Quest?
 
 <div align="center">
 
-### 🌟 "The future belongs to those who believe in the beauty of their dreams" 🌟
+### 🎮 Join My Adventure - Let's Build the Future Together!
 
-*Building tomorrow's AI solutions, one algorithm at a time.*
-
-![Profile Views](https://komarev.com/ghpvc/?username=RaneemQasim5251&color=blueviolet&style=for-the-badge)
-[![Stars](https://img.shields.io/github/stars/RaneemQasim5251?style=for-the-badge&color=yellow)](https://github.com/RaneemQasim5251)
 <table align="center">
 <tr>
 <td align="center" width="25%">
@@ -359,7 +437,7 @@ I'm always excited to discuss **AI innovations**, **research collaborations**, a
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&text=Game%20Over%20-%20Continue?&fontSize=30&fontColor=fff&animation=twinkling&fontAlignY=70"/>
 
-**🎮 Press START to connect:** [![LinkedIn](https://img.shields.io/badge/🔗_START_GAME-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-profile) [![Email](https://img.shields.io/badge/📧_SEND_MESSAGE-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:althaqafi.raneem@gmail.com)
+**🎮 Press START to connect:** [![LinkedIn](https://img.shields.io/badge/🔗_START_GAME-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/raneem-althaqafi/) [![Email](https://img.shields.io/badge/📧_SEND_MESSAGE-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:althaqafi.raneem@gmail.com)
 
 *Made with ❤️ and lots of ☕ by an AI enthusiast who believes technology should be fun!*
 

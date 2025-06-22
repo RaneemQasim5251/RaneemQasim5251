@@ -26,10 +26,9 @@
 I'm a passionate **AI & Machine Learning Specialist** with expertise in developing cutting-edge AI systems that solve complex real-world problems. Currently working as a **Jr. Data Scientist at Tuwaiq Academy**, where I developed **Siraj**, an advanced Arabic voice assistant for Riyadh Metro navigation.
 
 ### 🎯 Current Focus
-- 🤖 **AI Voice Assistants** - Real-time streaming with Gemini Live API
+- 🤖 **AI Voice Assistants** - Real-time streaming
 - 🧠 **Brain-Computer Interfaces** - Transforming thoughts into words
 - 👁️ **Computer Vision** - Face liveness detection using rPPG
-- 🌌 **Space Technology** - Deep learning for debris collision prediction
 - 🏥 **Medical AI** - Biometric signal processing and classification
 
 ---

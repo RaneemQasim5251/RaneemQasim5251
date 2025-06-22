@@ -1,4 +1,4 @@
-# 👋 Hi there, I'm Raneem Al-Thaqafi!
+![WhatsApp Image 2025-06-20 at 01 41 45_ab8de39c](https://github.com/user-attachments/assets/3e5a232e-65a0-4384-b6df-bbd98c91b392)# 👋 Hi there, I'm Raneem Al-Thaqafi!
 
 <div align="center">
   
@@ -110,7 +110,8 @@ I'm a passionate **AI & Machine Learning Specialist** with expertise in developi
 ## 🏆 Featured Projects
 
 ### 🎙️ [Siraj - Arabic Voice Assistant](https://github.com/RaneemQasim5251/siraj-voice-assistant)
-<img align="right" width="300" src="https://via.placeholder.com/300x200/FF6B6B/FFFFFF?text=Siraj+AI+Assistant" />
+<img align="right" width="300" src="![WhatsApp Image 2025-06-20 at 01 41 45_ab8de39c](https://github.com/user-attachments/assets/23f8f5d1-d3da-4e25-9049-16e1dc8c51ea)
+" />
 
 **Advanced Arabic AI Assistant for Riyadh Metro Navigation**
 - 🤖 **Gemini Live API** integration for real-time voice interaction

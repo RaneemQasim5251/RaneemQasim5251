@@ -1,4 +1,4 @@
-# Hi there! 👋 I'm Raneem Qasim Al-Thaqafi
+# Hi there! 👋 I'm Raneem Al-Thaqafi
 
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=2F81F7&center=true&vCenter=true&width=600&lines=Data+Science+%26+AI+Specialist;Machine+Learning+Engineer;Deep+Learning+Researcher;Computer+Vision+Expert" alt="Typing SVG" />

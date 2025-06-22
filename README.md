@@ -193,7 +193,6 @@ I'm a passionate **AI & Machine Learning Specialist** with expertise in developi
 | 🥇 **1st Place Worldwide** | Gravity Hackathon (PathFinders) | 2023 |
 | 🥈 **2nd Place** | Robofest Championship (Bionic Arm) | 2023 |
 | 🥈 **2nd Place** | National Olympiad for Scientific Research | 2022 |
-| 🎓 **First-Class Honors** | Bachelor of Computer Science | 2024 |
 | 🚀 **Selected** | Space Entrepreneurship Camp (Kingdom) | 2023 |
 | 🌟 **Qualified** | Microsoft Imagine Cup & MIT Solve | 2024 |
 

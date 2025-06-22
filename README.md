@@ -1,4 +1,4 @@
-![WhatsApp Image 2025-06-20 at 01 41 45_ab8de39c](https://github.com/user-attachments/assets/3e5a232e-65a0-4384-b6df-bbd98c91b392)# 👋 Hi there, I'm Raneem Al-Thaqafi!
+# 👋 Hi there, I'm Raneem Al-Thaqafi!
 
 <div align="center">
   

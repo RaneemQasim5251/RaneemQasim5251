@@ -22,7 +22,7 @@
 
 <div align="center">
 
-![Matrix](https://raw.githubusercontent.com/rodrigograca31/rodrigograca31/master/matrix.svg)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=100&section=header&text=&fontSize=50&fontColor=fff&animation=twinkling"/>
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Courier+New&size=20&duration=2000&pause=800&color=00FF41&center=true&vCenter=true&width=900&lines=ACCESSING+NEURAL+NETWORK...;DECRYPTING+AI+ALGORITHMS...;ANALYZING+PATTERNS...;GENIUS+LEVEL+DETECTED;INITIALIZING+PROTOCOL..." alt="System Access" />
 
@@ -51,7 +51,7 @@
 
 <div align="center">
 
-![Hacking GIF](https://media.giphy.com/media/l0HlN5Y28D9MzzcRy/giphy.gif)
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&duration=1500&pause=500&color=00FF41&center=true&vCenter=true&width=600&lines=🔐+Initiating+quantum+decryption...;🧮+Processing+cipher+algorithms...;✨+Identity+matrix+unlocked!" alt="Decryption Process" />
 
 </div>
 
@@ -70,7 +70,7 @@ ROT13: NEGVSVPVNY VAGRYYVTRAPR NEUVGRPG
 
 <div align="center">
 
-![Decoding](https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif)
+<img src="https://readme-typing-svg.herokuapp.com?font=Courier+New&size=12&duration=1000&pause=300&color=FFD700&center=true&vCenter=true&width=500&lines=Decoding+complete...;Identity+verified...;Access+granted!" alt="Decoder Result" />
 
 </div>
 
@@ -99,9 +99,9 @@ def reveal_identity():
 
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&duration=2000&pause=500&color=00FF41&center=true&vCenter=true&width=600&lines=Scanning+neural+pathways...;Analyzing+skill+matrices...;Processing+combat+data...;Assessment+complete!" alt="Neural Scan" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&duration=2000&pause=500&color=00FF41&center=true&vCenter=true&width=600&lines=🧠+Scanning+neural+pathways...;⚡+Analyzing+skill+matrices...;📊+Processing+combat+data...;✅+Assessment+complete!" alt="Neural Scan" />
 
-![AI Brain](https://media.giphy.com/media/xT0xeuOy2Fcl9vDGiA/giphy.gif)
+<img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="600"/>
 
 </div>
 
@@ -143,7 +143,7 @@ def reveal_identity():
 
 <div align="center">
 
-![Analysis](https://media.giphy.com/media/3o7abKhOpu0NwenH3O/giphy.gif)
+<img src="https://readme-typing-svg.herokuapp.com?font=Courier+New&size=12&duration=1500&pause=400&color=FF6B35&center=true&vCenter=true&width=550&lines=🔬+Deep+analysis+in+progress...;🧬+Genetic+code+breakdown...;📈+Pattern+recognition+complete!" alt="Analysis Progress" />
 
 </div>
 
@@ -173,9 +173,9 @@ def reveal_identity():
 
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=16&duration=3000&pause=1000&color=FFD700&center=true&vCenter=true&width=700&lines=Loading+mission+archives...;Analyzing+quest+data...;Processing+achievements...;Records+unlocked!" alt="Mission Loading" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=16&duration=3000&pause=1000&color=FFD700&center=true&vCenter=true&width=700&lines=📂+Loading+mission+archives...;🏆+Analyzing+quest+data...;📊+Processing+achievements...;✨+Records+unlocked!" alt="Mission Loading" />
 
-![Data Processing](https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif)
+<img src="https://github-profile-trophy.vercel.app/api/?username=RaneemQasim5251&theme=onedark&no-frame=true&row=1&column=7"/>
 
 </div>
 
@@ -229,7 +229,7 @@ class QuestArchive:
 
 <div align="center">
 
-![Mission Complete](https://media.giphy.com/media/3oriO13KTkzPwTykp2/giphy.gif)
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=12&duration=1200&pause=300&color=00FF41&center=true&vCenter=true&width=500&lines=✅+Mission+analysis+complete!;🏆+All+objectives+achieved!;🌟+Legendary+status+confirmed!" alt="Mission Complete" />
 
 </div>
 
@@ -278,9 +278,7 @@ class QuestArchive:
 
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&duration=2500&pause=800&color=FF6B6B&center=true&vCenter=true&width=650&lines=Analyzing+code+patterns...;Processing+commit+history...;Calculating+impact+metrics...;Forensic+analysis+complete!" alt="Forensics" />
-
-![Data Visualization](https://media.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif)
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&duration=2500&pause=800&color=FF6B6B&center=true&vCenter=true&width=650&lines=📈+Analyzing+code+patterns...;💻+Processing+commit+history...;🎯+Calculating+impact+metrics...;✅+Forensic+analysis+complete!" alt="Forensics" />
 
 </div>
 
@@ -295,7 +293,7 @@ class QuestArchive:
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=RaneemQasim5251&theme=dark&hide_border=true&background=0D1117&stroke=00FF41&ring=00FF41&fire=00FF41&currStreakLabel=FFFFFF)
 
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=RaneemQasim5251&theme=tokyo-night&bg_color=0D1117&color=00FF41&line=FF6B35&point=FFFFFF&area=true&hide_border=true)
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=RaneemQasim5251&theme=tokyo-night&bg_color=0D1117&color=00FF41&line=FF6B35&point=FFFFFF&area=true&hide_border=true" width="100%"/>
 
 </div>
 
@@ -326,9 +324,9 @@ class QuestArchive:
 
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=18&duration=3000&pause=1000&color=FFD700&center=true&vCenter=true&width=800&lines=ACCESSING+HALL+OF+FAME...;LOADING+VICTORY+RECORDS...;BOSS+DEFEATS+CONFIRMED...;LEGENDARY+STATUS+VERIFIED!" alt="Victory Loading" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=18&duration=3000&pause=1000&color=FFD700&center=true&vCenter=true&width=800&lines=🏛️+Accessing+Hall+of+Fame...;📜+Loading+victory+records...;⚔️+Boss+defeats+confirmed...;👑+Legendary+status+verified!" alt="Victory Loading" />
 
-![Victory](https://media.giphy.com/media/26u4cqiYI30juCOGY/giphy.gif)
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=24,25,26,27,28&height=50&section=header&text=HALL%20OF%20LEGENDS&fontSize=20&fontColor=fff&fontAlignY=50"/>
 
 </div>
 
@@ -384,9 +382,9 @@ class QuestArchive:
 
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=20&duration=4000&pause=1000&color=FF6B35&center=true&vCenter=true&width=900&lines=THE+MOMENT+OF+TRUTH...;REVEALING+THE+LEGEND...;BEHOLD+THE+AI+ARCHITECT...;RANEEM+AL-THAQAFI!" alt="Final Revelation" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=20&duration=4000&pause=1000&color=FF6B35&center=true&vCenter=true&width=900&lines=✨+The+moment+of+truth...;🌟+Revealing+the+legend...;👑+Behold+the+AI+Architect...;🏆+RANEEM+AL-THAQAFI!" alt="Final Revelation" />
 
-![Revelation](https://media.giphy.com/media/xT0xeJpnrWC4XWblEk/giphy.gif)
+<img src="https://capsule-render.vercel.app/api?type=cylinder&color=gradient&customColorList=0,2,2,5,30&height=150&section=header&text=THE%20ARCHITECT&fontSize=30&fontColor=fff&animation=blinking"/>
 
 </div>
 
@@ -425,9 +423,7 @@ class QuestArchive:
 
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=750&lines=Scanning+for+elite+organizations...;Analyzing+potential+alliances...;Mission+parameters+updated...;Ready+for+deployment!" alt="Mission Status" />
-
-![Mission](https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif)
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=750&lines=🔍+Scanning+for+elite+organizations...;🤝+Analyzing+potential+alliances...;📋+Mission+parameters+updated...;🚀+Ready+for+deployment!" alt="Mission Status" />
 
 </div>
 
@@ -463,8 +459,8 @@ class CurrentMission:
 ```
 ██████████████████████████████████████████████████████████████████████████████████
                                                                      
-                       🔥 LEGENDARY STATUS: ACTIVE 🔥
-                     💫 READY FOR NEXT ADVENTURE 💫
+                        🔥 LEGENDARY STATUS: ACTIVE 🔥
+                      💫 READY FOR NEXT ADVENTURE 💫
                                                                      
 ██████████████████████████████████████████████████████████████████████████████████
 ```
@@ -481,9 +477,9 @@ class CurrentMission:
 
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Courier+New&size=14&duration=2500&pause=1000&color=00FF41&center=true&vCenter=true&width=600&lines=Establishing+secure+connections...;Encryption+protocols+active...;Communication+channels+open...;Ready+for+contact!" alt="Communication" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Courier+New&size=14&duration=2500&pause=1000&color=00FF41&center=true&vCenter=true&width=600&lines=🔗+Establishing+secure+connections...;🔐+Encryption+protocols+active...;📡+Communication+channels+open...;✅+Ready+for+contact!" alt="Communication" />
 
-![Communication](https://media.giphy.com/media/xT9IgG50Fb7Mi0prBC/giphy.gif)
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=40&section=header&text=CONTACT%20PROTOCOLS&fontSize=16&fontColor=fff"/>
 
 </div>
 
@@ -509,9 +505,9 @@ class CurrentMission:
 
 <div align="center">
 
-**"Every algorithm tells a story, every model holds a secret, every line of code is a step towards the future"**
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=100&section=footer&text=&fontSize=50&fontColor=fff&animation=twinkling"/>
 
-![Thank You](https://media.giphy.com/media/3o7abKhOpu0NwenH3O/giphy.gif)
+**"Every algorithm tells a story, every model holds a secret, every line of code is a step towards the future"**
 
 **🌟 Thank you for solving the mystery! The adventure continues... 🌟**
 

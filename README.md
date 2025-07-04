@@ -6,8 +6,11 @@
 </a>
 
 <div align="center">
+<table>
+<tr>
+<td valign="top" width="50%">
 
-<pre style="color: #00ff00; background-color: #000000; padding: 20px; border-radius: 10px; margin: 20px 0;">
+<pre style="color: #00ff00; background-color: #000000; padding: 20px; border-radius: 10px; margin: 20px 0; font-size: 12px;">
                        .,,uod8B8bou,,.
               ..,uod8BBBBBBBBBBBBBBBBRPFT?l!i:.
          ,=m8BBBBBBBBBBBBBBBRPFT?!||||||||||||||
@@ -40,13 +43,15 @@
                       `!^"'
 </pre>
 
-### **🚀 Raneem Althaqafi - AI Engineer & Researcher**
+</td>
+<td valign="top" width="50%">
+
+### **🚀 Raneem Althaqafi**
+### **AI Engineer & Researcher**
 
 **📍 Location:** Riyadh, Saudi Arabia  
 **🎯 Role:** AI Engineer & Space Technology Researcher  
 **🏆 Achievement:** World Champion - Space Debris Detection (1st/495 participants)  
-
-</div>
 
 ---
 
@@ -64,12 +69,13 @@ Building the future of AI, one neural network at a time ✨
 
 ---
 
-<div align="center">
-
 **🌟 "Exploring the intersection of AI and space technology"**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/raneem-althaqafi)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RaneemQasim5251)
 
+</td>
+</tr>
+</table>
 </div>
 

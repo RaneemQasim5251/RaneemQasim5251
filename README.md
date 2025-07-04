@@ -5,8 +5,6 @@
   </picture>
 </a>
 
-butor
-
 ### **Tech Stack**
 `Python` `TensorFlow` `PyTorch` `OpenCV` `Azure` `Docker`
 

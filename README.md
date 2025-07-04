@@ -5,10 +5,9 @@
   </picture>
 </a>
 
-<!-- Fallback content if SVG doesn't load -->
 <div align="center">
 
-```
+<pre style="color: #00ff00; background-color: #000000; padding: 20px; border-radius: 10px; margin: 20px 0;">
                        .,,uod8B8bou,,.
               ..,uod8BBBBBBBBBBBBBBBBRPFT?l!i:.
          ,=m8BBBBBBBBBBBBBBBRPFT?!||||||||||||||
@@ -39,7 +38,7 @@
                   `!988888888899fT|!^"'
                     `!9899fT|!^"'
                       `!^"'
-```
+</pre>
 
 ### **🚀 Raneem Althaqafi - AI Engineer & Researcher**
 

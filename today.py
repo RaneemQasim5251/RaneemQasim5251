@@ -140,138 +140,96 @@ def query_count(funct_id):
     QUERY_COUNT[funct_id] += 1
 
 def create_dark_mode_svg(age_data, commit_data, star_data, repo_data, follower_data):
-    """Create the dark mode SVG with terminal styling"""
-    svg_content = f'''<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500">
-  <defs>
-    <style>
-      .terminal-bg {{ fill: #0d1117; }}
-      .terminal-text {{ fill: #c9d1d9; font-family: 'Consolas', 'Monaco', monospace; font-size: 14px; }}
-      .key {{ fill: #ffd700; }}
-      .value {{ fill: #7dd3fc; }}
-      .highlight {{ fill: #3fb950; }}
-      .comment {{ fill: #8b949e; }}
-      .prompt {{ fill: #ffd700; font-weight: bold; }}
-    </style>
-  </defs>
-  
-  <!-- Terminal Background -->
-  <rect width="900" height="500" class="terminal-bg" rx="12"/>
-  
-  <!-- Terminal Header -->
-  <rect x="0" y="0" width="900" height="30" fill="#161b22" rx="12"/>
-  <circle cx="20" cy="15" r="6" fill="#ff5f57"/>
-  <circle cx="40" cy="15" r="6" fill="#ffbd2e"/>
-  <circle cx="60" cy="15" r="6" fill="#28ca42"/>
-  
-  <!-- ASCII Art -->
-  <text x="50" y="70" class="terminal-text">
-    <tspan x="50" y="70">    ┌────────────────────────┐</tspan>
-    <tspan x="50" y="90">    │  ●───●───●  NEURAL  │</tspan>
-    <tspan x="50" y="110">   │  / \\ / \\ /   NETWORK │</tspan>
-    <tspan x="50" y="130">   │ ●───●───●─────────●  │</tspan>
-    <tspan x="50" y="150">   │  \\ / \\ / \\       /   │</tspan>
-    <tspan x="50" y="170">   │   ●───●───●─────●    │</tspan>
-    <tspan x="50" y="190">   │    \\ / \\ / \\   /     │</tspan>
-    <tspan x="50" y="210">   │     ●───●───●       │</tspan>
-    <tspan x="50" y="230">   │      \\ / \\ /        │</tspan>
-    <tspan x="50" y="250">   │       ●───●  AI     │</tspan>
-    <tspan x="50" y="270">   └────────────────────────┘</tspan>
-  </text>
-  
-  <!-- Terminal Content -->
-  <text x="350" y="70" class="terminal-text">
-    <tspan x="350" y="70" class="prompt">raneem@althaqafi</tspan><tspan class="comment"> ~$ whoami</tspan>
-    <tspan x="350" y="100" class="comment">└─╼ </tspan><tspan class="key">name:</tspan> <tspan class="value">Raneem Althaqafi</tspan>
-    <tspan x="350" y="120" class="comment">└─╼ </tspan><tspan class="key">role:</tspan> <tspan class="value">AI Engineer &amp; Researcher</tspan>
-    <tspan x="350" y="140" class="comment">└─╼ </tspan><tspan class="key">age:</tspan> <tspan class="value">{age_data}</tspan>
-    <tspan x="350" y="160" class="comment">└─╼ </tspan><tspan class="key">location:</tspan> <tspan class="value">Riyadh, Saudi Arabia</tspan>
-    
-    <tspan x="350" y="190" class="prompt">raneem@althaqafi</tspan><tspan class="comment"> ~$ cat achievements.txt</tspan>
-    <tspan x="350" y="210" class="comment">└─╼ </tspan><tspan class="highlight">🏆 World Champion:</tspan> <tspan class="value">Space Debris Detection (1st/495)</tspan>
-    <tspan x="350" y="230" class="comment">└─╼ </tspan><tspan class="highlight">🤖 AI Innovation:</tspan> <tspan class="value">Arabic Metro Assistant (Siraj)</tspan>
-    <tspan x="350" y="250" class="comment">└─╼ </tspan><tspan class="highlight">💓 Research:</tspan> <tspan class="value">rPPG Heartbeat Detection (94%)</tspan>
-    <tspan x="350" y="270" class="comment">└─╼ </tspan><tspan class="highlight">🇸🇦 Impact:</tspan> <tspan class="value">Vision 2030 Contributor</tspan>
-    
-    <tspan x="350" y="300" class="prompt">raneem@althaqafi</tspan><tspan class="comment"> ~$ git status</tspan>
-    <tspan x="350" y="320" class="comment">└─╼ </tspan><tspan class="key">repositories:</tspan> <tspan class="value">{repo_data}</tspan>
-    <tspan x="350" y="340" class="comment">└─╼ </tspan><tspan class="key">stars_earned:</tspan> <tspan class="value">{star_data}</tspan>
-    <tspan x="350" y="360" class="comment">└─╼ </tspan><tspan class="key">commits_2025:</tspan> <tspan class="value">{commit_data}</tspan>
-    <tspan x="350" y="380" class="comment">└─╼ </tspan><tspan class="key">followers:</tspan> <tspan class="value">{follower_data}</tspan>
-    
-    <tspan x="350" y="410" class="prompt">raneem@althaqafi</tspan><tspan class="comment"> ~$ echo "motto"</tspan>
-    <tspan x="350" y="430" class="comment">└─╼ </tspan><tspan class="value">"Building the future of AI, one neural network at a time"</tspan>
-    
-    <tspan x="350" y="460" class="prompt">raneem@althaqafi</tspan><tspan class="comment"> ~$ </tspan><tspan class="highlight">█</tspan>
-  </text>
+    """Create a simple, GitHub-compatible dark mode SVG"""
+    svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+<rect width="800" height="400" fill="#0d1117" rx="10"/>
+<rect x="0" y="0" width="800" height="25" fill="#161b22" rx="10"/>
+<circle cx="15" cy="12" r="4" fill="#ff5f57"/>
+<circle cx="30" cy="12" r="4" fill="#ffbd2e"/>
+<circle cx="45" cy="12" r="4" fill="#28ca42"/>
+
+<text x="20" y="50" fill="#c9d1d9" font-family="monospace" font-size="14">
+<tspan x="20" y="50">    ┌─────────────────────────┐</tspan>
+<tspan x="20" y="70">    │  ●───●───●  NEURAL   │</tspan>
+<tspan x="20" y="90">    │ / \\ / \\ /  NETWORK  │</tspan>
+<tspan x="20" y="110">   │●───●───●─────────●   │</tspan>
+<tspan x="20" y="130">   │ \\ / \\ / \\       /    │</tspan>
+<tspan x="20" y="150">   │  ●───●───●─────●     │</tspan>
+<tspan x="20" y="170">   │   \\ / \\ / \\   /      │</tspan>
+<tspan x="20" y="190">   │    ●───●───●        │</tspan>
+<tspan x="20" y="210">   │     \\ / \\ /         │</tspan>
+<tspan x="20" y="230">   │      ●───●  AI      │</tspan>
+<tspan x="20" y="250">   └─────────────────────────┘</tspan>
+</text>
+
+<text x="280" y="50" fill="#c9d1d9" font-family="monospace" font-size="14">
+<tspan x="280" y="50" fill="#ffd700">raneem@althaqafi</tspan><tspan fill="#8b949e"> ~$ whoami</tspan>
+<tspan x="280" y="75" fill="#8b949e">└─╼ </tspan><tspan fill="#ffd700">name:</tspan><tspan fill="#7dd3fc"> Raneem Althaqafi</tspan>
+<tspan x="280" y="95" fill="#8b949e">└─╼ </tspan><tspan fill="#ffd700">role:</tspan><tspan fill="#7dd3fc"> AI Engineer &amp; Researcher</tspan>
+<tspan x="280" y="115" fill="#8b949e">└─╼ </tspan><tspan fill="#ffd700">age:</tspan><tspan fill="#7dd3fc"> {age_data}</tspan>
+<tspan x="280" y="135" fill="#8b949e">└─╼ </tspan><tspan fill="#ffd700">location:</tspan><tspan fill="#7dd3fc"> Riyadh, Saudi Arabia</tspan>
+
+<tspan x="280" y="165" fill="#ffd700">raneem@althaqafi</tspan><tspan fill="#8b949e"> ~$ cat achievements.txt</tspan>
+<tspan x="280" y="185" fill="#8b949e">└─╼ </tspan><tspan fill="#3fb950">🏆 World Champion:</tspan><tspan fill="#7dd3fc"> Space Debris (1st/495)</tspan>
+<tspan x="280" y="205" fill="#8b949e">└─╼ </tspan><tspan fill="#3fb950">🤖 AI Innovation:</tspan><tspan fill="#7dd3fc"> Arabic Metro AI (Siraj)</tspan>
+<tspan x="280" y="225" fill="#8b949e">└─╼ </tspan><tspan fill="#3fb950">💓 Research:</tspan><tspan fill="#7dd3fc"> rPPG Heartbeat (94%)</tspan>
+<tspan x="280" y="245" fill="#8b949e">└─╼ </tspan><tspan fill="#3fb950">🇸🇦 Impact:</tspan><tspan fill="#7dd3fc"> Vision 2030 Contributor</tspan>
+
+<tspan x="280" y="275" fill="#ffd700">raneem@althaqafi</tspan><tspan fill="#8b949e"> ~$ git status</tspan>
+<tspan x="280" y="295" fill="#8b949e">└─╼ </tspan><tspan fill="#ffd700">repos:</tspan><tspan fill="#7dd3fc"> {repo_data}</tspan><tspan fill="#8b949e"> │ </tspan><tspan fill="#ffd700">stars:</tspan><tspan fill="#7dd3fc"> {star_data}</tspan>
+<tspan x="280" y="315" fill="#8b949e">└─╼ </tspan><tspan fill="#ffd700">commits:</tspan><tspan fill="#7dd3fc"> {commit_data}</tspan><tspan fill="#8b949e"> │ </tspan><tspan fill="#ffd700">followers:</tspan><tspan fill="#7dd3fc"> {follower_data}</tspan>
+
+<tspan x="280" y="345" fill="#ffd700">raneem@althaqafi</tspan><tspan fill="#8b949e"> ~$ echo "Building AI future"</tspan>
+<tspan x="280" y="365" fill="#8b949e">└─╼ </tspan><tspan fill="#7dd3fc">"One neural network at a time" ✨</tspan>
+<tspan x="280" y="385" fill="#ffd700">raneem@althaqafi</tspan><tspan fill="#8b949e"> ~$ </tspan><tspan fill="#3fb950">█</tspan>
+</text>
 </svg>'''
     return svg_content
 
 def create_light_mode_svg(age_data, commit_data, star_data, repo_data, follower_data):
-    """Create the light mode SVG with terminal styling"""
-    svg_content = f'''<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500">
-  <defs>
-    <style>
-      .terminal-bg {{ fill: #ffffff; }}
-      .terminal-text {{ fill: #24292f; font-family: 'Consolas', 'Monaco', monospace; font-size: 14px; }}
-      .key {{ fill: #0969da; }}
-      .value {{ fill: #8250df; }}
-      .highlight {{ fill: #1a7f37; }}
-      .comment {{ fill: #6f7781; }}
-      .prompt {{ fill: #0969da; font-weight: bold; }}
-    </style>
-  </defs>
-  
-  <!-- Terminal Background -->
-  <rect width="900" height="500" class="terminal-bg" rx="12" stroke="#d1d9e0" stroke-width="2"/>
-  
-  <!-- Terminal Header -->
-  <rect x="0" y="0" width="900" height="30" fill="#f6f8fa" rx="12"/>
-  <circle cx="20" cy="15" r="6" fill="#ff5f57"/>
-  <circle cx="40" cy="15" r="6" fill="#ffbd2e"/>
-  <circle cx="60" cy="15" r="6" fill="#28ca42"/>
-  
-  <!-- ASCII Art -->
-  <text x="50" y="70" class="terminal-text">
-    <tspan x="50" y="70">    ┌────────────────────────┐</tspan>
-    <tspan x="50" y="90">    │  ●───●───●  NEURAL  │</tspan>
-    <tspan x="50" y="110">   │  / \\ / \\ /   NETWORK │</tspan>
-    <tspan x="50" y="130">   │ ●───●───●─────────●  │</tspan>
-    <tspan x="50" y="150">   │  \\ / \\ / \\       /   │</tspan>
-    <tspan x="50" y="170">   │   ●───●───●─────●    │</tspan>
-    <tspan x="50" y="190">   │    \\ / \\ / \\   /     │</tspan>
-    <tspan x="50" y="210">   │     ●───●───●       │</tspan>
-    <tspan x="50" y="230">   │      \\ / \\ /        │</tspan>
-    <tspan x="50" y="250">   │       ●───●  AI     │</tspan>
-    <tspan x="50" y="270">   └────────────────────────┘</tspan>
-  </text>
-  
-  <!-- Terminal Content -->
-  <text x="350" y="70" class="terminal-text">
-    <tspan x="350" y="70" class="prompt">raneem@althaqafi</tspan><tspan class="comment"> ~$ whoami</tspan>
-    <tspan x="350" y="100" class="comment">└─╼ </tspan><tspan class="key">name:</tspan> <tspan class="value">Raneem Althaqafi</tspan>
-    <tspan x="350" y="120" class="comment">└─╼ </tspan><tspan class="key">role:</tspan> <tspan class="value">AI Engineer &amp; Researcher</tspan>
-    <tspan x="350" y="140" class="comment">└─╼ </tspan><tspan class="key">age:</tspan> <tspan class="value">{age_data}</tspan>
-    <tspan x="350" y="160" class="comment">└─╼ </tspan><tspan class="key">location:</tspan> <tspan class="value">Riyadh, Saudi Arabia</tspan>
-    
-    <tspan x="350" y="190" class="prompt">raneem@althaqafi</tspan><tspan class="comment"> ~$ cat achievements.txt</tspan>
-    <tspan x="350" y="210" class="comment">└─╼ </tspan><tspan class="highlight">🏆 World Champion:</tspan> <tspan class="value">Space Debris Detection (1st/495)</tspan>
-    <tspan x="350" y="230" class="comment">└─╼ </tspan><tspan class="highlight">🤖 AI Innovation:</tspan> <tspan class="value">Arabic Metro Assistant (Siraj)</tspan>
-    <tspan x="350" y="250" class="comment">└─╼ </tspan><tspan class="highlight">💓 Research:</tspan> <tspan class="value">rPPG Heartbeat Detection (94%)</tspan>
-    <tspan x="350" y="270" class="comment">└─╼ </tspan><tspan class="highlight">🇸🇦 Impact:</tspan> <tspan class="value">Vision 2030 Contributor</tspan>
-    
-    <tspan x="350" y="300" class="prompt">raneem@althaqafi</tspan><tspan class="comment"> ~$ git status</tspan>
-    <tspan x="350" y="320" class="comment">└─╼ </tspan><tspan class="key">repositories:</tspan> <tspan class="value">{repo_data}</tspan>
-    <tspan x="350" y="340" class="comment">└─╼ </tspan><tspan class="key">stars_earned:</tspan> <tspan class="value">{star_data}</tspan>
-    <tspan x="350" y="360" class="comment">└─╼ </tspan><tspan class="key">commits_2025:</tspan> <tspan class="value">{commit_data}</tspan>
-    <tspan x="350" y="380" class="comment">└─╼ </tspan><tspan class="key">followers:</tspan> <tspan class="value">{follower_data}</tspan>
-    
-    <tspan x="350" y="410" class="prompt">raneem@althaqafi</tspan><tspan class="comment"> ~$ echo "motto"</tspan>
-    <tspan x="350" y="430" class="comment">└─╼ </tspan><tspan class="value">"Building the future of AI, one neural network at a time"</tspan>
-    
-    <tspan x="350" y="460" class="prompt">raneem@althaqafi</tspan><tspan class="comment"> ~$ </tspan><tspan class="highlight">█</tspan>
-  </text>
+    """Create a simple, GitHub-compatible light mode SVG"""
+    svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+<rect width="800" height="400" fill="#ffffff" stroke="#d1d9e0" stroke-width="2" rx="10"/>
+<rect x="0" y="0" width="800" height="25" fill="#f6f8fa" rx="10"/>
+<circle cx="15" cy="12" r="4" fill="#ff5f57"/>
+<circle cx="30" cy="12" r="4" fill="#ffbd2e"/>
+<circle cx="45" cy="12" r="4" fill="#28ca42"/>
+
+<text x="20" y="50" fill="#24292f" font-family="monospace" font-size="14">
+<tspan x="20" y="50">    ┌─────────────────────────┐</tspan>
+<tspan x="20" y="70">    │  ●───●───●  NEURAL   │</tspan>
+<tspan x="20" y="90">    │ / \\ / \\ /  NETWORK  │</tspan>
+<tspan x="20" y="110">   │●───●───●─────────●   │</tspan>
+<tspan x="20" y="130">   │ \\ / \\ / \\       /    │</tspan>
+<tspan x="20" y="150">   │  ●───●───●─────●     │</tspan>
+<tspan x="20" y="170">   │   \\ / \\ / \\   /      │</tspan>
+<tspan x="20" y="190">   │    ●───●───●        │</tspan>
+<tspan x="20" y="210">   │     \\ / \\ /         │</tspan>
+<tspan x="20" y="230">   │      ●───●  AI      │</tspan>
+<tspan x="20" y="250">   └─────────────────────────┘</tspan>
+</text>
+
+<text x="280" y="50" fill="#24292f" font-family="monospace" font-size="14">
+<tspan x="280" y="50" fill="#0969da">raneem@althaqafi</tspan><tspan fill="#6f7781"> ~$ whoami</tspan>
+<tspan x="280" y="75" fill="#6f7781">└─╼ </tspan><tspan fill="#0969da">name:</tspan><tspan fill="#8250df"> Raneem Althaqafi</tspan>
+<tspan x="280" y="95" fill="#6f7781">└─╼ </tspan><tspan fill="#0969da">role:</tspan><tspan fill="#8250df"> AI Engineer &amp; Researcher</tspan>
+<tspan x="280" y="115" fill="#6f7781">└─╼ </tspan><tspan fill="#0969da">age:</tspan><tspan fill="#8250df"> {age_data}</tspan>
+<tspan x="280" y="135" fill="#6f7781">└─╼ </tspan><tspan fill="#0969da">location:</tspan><tspan fill="#8250df"> Riyadh, Saudi Arabia</tspan>
+
+<tspan x="280" y="165" fill="#0969da">raneem@althaqafi</tspan><tspan fill="#6f7781"> ~$ cat achievements.txt</tspan>
+<tspan x="280" y="185" fill="#6f7781">└─╼ </tspan><tspan fill="#1a7f37">🏆 World Champion:</tspan><tspan fill="#8250df"> Space Debris (1st/495)</tspan>
+<tspan x="280" y="205" fill="#6f7781">└─╼ </tspan><tspan fill="#1a7f37">🤖 AI Innovation:</tspan><tspan fill="#8250df"> Arabic Metro AI (Siraj)</tspan>
+<tspan x="280" y="225" fill="#6f7781">└─╼ </tspan><tspan fill="#1a7f37">💓 Research:</tspan><tspan fill="#8250df"> rPPG Heartbeat (94%)</tspan>
+<tspan x="280" y="245" fill="#6f7781">└─╼ </tspan><tspan fill="#1a7f37">🇸🇦 Impact:</tspan><tspan fill="#8250df"> Vision 2030 Contributor</tspan>
+
+<tspan x="280" y="275" fill="#0969da">raneem@althaqafi</tspan><tspan fill="#6f7781"> ~$ git status</tspan>
+<tspan x="280" y="295" fill="#6f7781">└─╼ </tspan><tspan fill="#0969da">repos:</tspan><tspan fill="#8250df"> {repo_data}</tspan><tspan fill="#6f7781"> │ </tspan><tspan fill="#0969da">stars:</tspan><tspan fill="#8250df"> {star_data}</tspan>
+<tspan x="280" y="315" fill="#6f7781">└─╼ </tspan><tspan fill="#0969da">commits:</tspan><tspan fill="#8250df"> {commit_data}</tspan><tspan fill="#6f7781"> │ </tspan><tspan fill="#0969da">followers:</tspan><tspan fill="#8250df"> {follower_data}</tspan>
+
+<tspan x="280" y="345" fill="#0969da">raneem@althaqafi</tspan><tspan fill="#6f7781"> ~$ echo "Building AI future"</tspan>
+<tspan x="280" y="365" fill="#6f7781">└─╼ </tspan><tspan fill="#8250df">"One neural network at a time" ✨</tspan>
+<tspan x="280" y="385" fill="#0969da">raneem@althaqafi</tspan><tspan fill="#6f7781"> ~$ </tspan><tspan fill="#1a7f37">█</tspan>
+</text>
 </svg>'''
     return svg_content
 
@@ -299,7 +257,7 @@ if __name__ == '__main__':
     formatter('account data', user_time)
     
     # Calculate age (adjust birth date as needed)
-    age_data, age_time = perf_counter(daily_readme, datetime.datetime(1995, 1, 1))  # Adjust your birth date here
+    age_data, age_time = perf_counter(daily_readme, datetime.datetime(2001, 3, 16))  # Born March 16, 2001
     formatter('age calculation', age_time)
     
     # Get GitHub stats

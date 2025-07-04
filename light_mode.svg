@@ -5,37 +5,37 @@
 <circle cx="30" cy="12" r="4" fill="#ffbd2e"/>
 <circle cx="45" cy="12" r="4" fill="#28ca42"/>
 
-<text x="15" y="45" fill="#00ff00" font-family="monospace" font-size="10">
-<tspan x="15" y="45">                       .,,uod8B8bou,,.</tspan>
-<tspan x="15" y="58">              ..,uod8BBBBBBBBBBBBBBBBRPFT?l!i:.</tspan>
-<tspan x="15" y="71">         ,=m8BBBBBBBBBBBBBBBRPFT?!||||||||||||||</tspan>
-<tspan x="15" y="84">         !...:!TVBBBRPFT||||||||||!!^^""'   ||||</tspan>
-<tspan x="15" y="97">         !.......:!?|||||!!^^""'            ||||</tspan>
+<text x="15" y="50" fill="#00ff00" font-family="monospace" font-size="9">
+<tspan x="15" y="50">                       .,,uod8B8bou,,.</tspan>
+<tspan x="15" y="62">              ..,uod8BBBBBBBBBBBBBBBBRPFT?l!i:.</tspan>
+<tspan x="15" y="74">         ,=m8BBBBBBBBBBBBBBBRPFT?!||||||||||||||</tspan>
+<tspan x="15" y="86">         !...:!TVBBBRPFT||||||||||!!^^""'   ||||</tspan>
+<tspan x="15" y="98">         !.......:!?|||||!!^^""'            ||||</tspan>
 <tspan x="15" y="110">         !.........||||                     ||||</tspan>
-<tspan x="15" y="123">         !.........||||  ##                 ||||</tspan>
-<tspan x="15" y="136">         !.........||||                     ||||</tspan>
-<tspan x="15" y="149">         !.........||||                     ||||</tspan>
-<tspan x="15" y="162">         !.........||||                     ||||</tspan>
-<tspan x="15" y="175">         !.........||||                     ||||</tspan>
-<tspan x="15" y="188">         `.........||||                    ,||||</tspan>
-<tspan x="15" y="201">          .;.......||||               _.-!!|||||</tspan>
-<tspan x="15" y="214">   .,uodWBBBBb.....||||       _.-!!|||||||||!:'</tspan>
-<tspan x="15" y="227">!YBBBBBBBBBBBBBBb..!|||:..-!!|||||||!iof68BBBBBb....</tspan>
-<tspan x="15" y="240">!..YBBBBBBBBBBBBBBb!!||||||||!iof68BBBBBBRPFT?!::   `.</tspan>
-<tspan x="15" y="253">!....YBBBBBBBBBBBBBBbaaitf68BBBBBBRPFT?!:::::::::     `.</tspan>
-<tspan x="15" y="266">!......YBBBBBBBBBBBBBBBBBBBRPFT?!::::::;:!^"`;:::       `.</tspan>
-<tspan x="15" y="279">!........YBBBBBBBBBBRPFT?!::::::::::^''...::::::;         iBBbo.</tspan>
-<tspan x="15" y="292">`..........YBRPFT?!::::::::::::::::::::::::;iof68bo.      WBBBBbo.</tspan>
-<tspan x="15" y="305">  `..........:::::::::::::::::::::::;iof688888888888b.     `YBBBP^'</tspan>
-<tspan x="15" y="318">    `........::::::::::::::::;iof688888888888888888888b.     `</tspan>
-<tspan x="15" y="331">      `......:::::::::;iof688888888888888888888888888888b.</tspan>
-<tspan x="15" y="344">        `....:::;iof688888888888888888888888888888888899fT!</tspan>
-<tspan x="15" y="357">          `..::!8888888888888888888888888888888899fT|!^"'</tspan>
-<tspan x="15" y="370">            `' !!988888888888888888888888899fT|!^"'</tspan>
-<tspan x="15" y="383">                `!!8888888888888888899fT|!^"'</tspan>
-<tspan x="15" y="396">                  `!988888888899fT|!^"'</tspan>
-<tspan x="15" y="409">                    `!9899fT|!^"'</tspan>
-<tspan x="15" y="422">                      `!^"'</tspan>
+<tspan x="15" y="122">         !.........||||  ##                 ||||</tspan>
+<tspan x="15" y="134">         !.........||||                     ||||</tspan>
+<tspan x="15" y="146">         !.........||||                     ||||</tspan>
+<tspan x="15" y="158">         !.........||||                     ||||</tspan>
+<tspan x="15" y="170">         !.........||||                     ||||</tspan>
+<tspan x="15" y="182">         `.........||||                    ,||||</tspan>
+<tspan x="15" y="194">          .;.......||||               _.-!!|||||</tspan>
+<tspan x="15" y="206">   .,uodWBBBBb.....||||       _.-!!|||||||||!:'</tspan>
+<tspan x="15" y="218">!YBBBBBBBBBBBBBBb..!|||:..-!!|||||||!iof68BBBBBb....</tspan>
+<tspan x="15" y="230">!..YBBBBBBBBBBBBBBb!!||||||||!iof68BBBBBBRPFT?!::   `.</tspan>
+<tspan x="15" y="242">!....YBBBBBBBBBBBBBBbaaitf68BBBBBBRPFT?!:::::::::     `.</tspan>
+<tspan x="15" y="254">!......YBBBBBBBBBBBBBBBBBBBRPFT?!::::::;:!^"`;:::       `.</tspan>
+<tspan x="15" y="266">!........YBBBBBBBBBBRPFT?!::::::::::^''...::::::;         iBBbo.</tspan>
+<tspan x="15" y="278">`..........YBRPFT?!::::::::::::::::::::::::;iof68bo.      WBBBBbo.</tspan>
+<tspan x="15" y="290">  `..........:::::::::::::::::::::::;iof688888888888b.     `YBBBP^'</tspan>
+<tspan x="15" y="302">    `........::::::::::::::::;iof688888888888888888888b.     `</tspan>
+<tspan x="15" y="314">      `......:::::::::;iof688888888888888888888888888888b.</tspan>
+<tspan x="15" y="326">        `....:::;iof688888888888888888888888888888888899fT!</tspan>
+<tspan x="15" y="338">          `..::!8888888888888888888888888888888899fT|!^"'</tspan>
+<tspan x="15" y="350">            `' !!988888888888888888888888899fT|!^"'</tspan>
+<tspan x="15" y="362">                `!!8888888888888888899fT|!^"'</tspan>
+<tspan x="15" y="374">                  `!988888888899fT|!^"'</tspan>
+<tspan x="15" y="386">                    `!9899fT|!^"'</tspan>
+<tspan x="15" y="398">                      `!^"'</tspan>
 </text>
 
 <text x="480" y="60" fill="#24292f" font-family="monospace" font-size="16">

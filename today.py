@@ -153,16 +153,16 @@ def create_dark_mode_svg(age_data, commit_data, star_data, repo_data, follower_d
 <tspan x="15" y="60">              ..,uod8BBBBBBBBBBBBBBBBRPFT?l!i:.</tspan>
 <tspan x="15" y="75">         ,=m8BBBBBBBBBBBBBBBRPFT?!||||||||||||||</tspan>
 <tspan x="15" y="90">         !...:!TVBBBRPFT||||||||||!!^^""'   ||||</tspan>
-<tspan x="15" y="105">        !.......:!?|||||!!^^""'            ||||</tspan>
-<tspan x="15" y="120">        !.........||||                     ||||</tspan>
-<tspan x="15" y="135">        !.........||||  ##                 ||||</tspan>
-<tspan x="15" y="150">        !.........||||                     ||||</tspan>
-<tspan x="15" y="165">        !.........||||                     ||||</tspan>
-<tspan x="15" y="180">        !.........||||                     ||||</tspan>
-<tspan x="15" y="195">        !.........||||                     ||||</tspan>
-<tspan x="15" y="210">        `.........||||                    ,||||</tspan>
-<tspan x="15" y="225">         .;.......||||               _.-!!|||||</tspan>
-<tspan x="15" y="240">  .,uodWBBBBb.....||||       _.-!!|||||||||!:'</tspan>
+<tspan x="15" y="105">         !.......:!?|||||!!^^""'            ||||</tspan>
+<tspan x="15" y="120">         !.........||||                     ||||</tspan>
+<tspan x="15" y="135">         !.........||||  ##                 ||||</tspan>
+<tspan x="15" y="150">         !.........||||                     ||||</tspan>
+<tspan x="15" y="165">         !.........||||                     ||||</tspan>
+<tspan x="15" y="180">         !.........||||                     ||||</tspan>
+<tspan x="15" y="195">         !.........||||                     ||||</tspan>
+<tspan x="15" y="210">         `.........||||                    ,||||</tspan>
+<tspan x="15" y="225">          .;.......||||               _.-!!|||||</tspan>
+<tspan x="15" y="240">   .,uodWBBBBb.....||||       _.-!!|||||||||!:'</tspan>
 <tspan x="15" y="255">!YBBBBBBBBBBBBBBb..!|||:..-!!|||||||!iof68BBBBBb....</tspan>
 <tspan x="15" y="270">!..YBBBBBBBBBBBBBBb!!||||||||!iof68BBBBBBRPFT?!::   `.</tspan>
 <tspan x="15" y="285">!....YBBBBBBBBBBBBBBbaaitf68BBBBBBRPFT?!:::::::::     `.</tspan>
@@ -178,7 +178,7 @@ def create_dark_mode_svg(age_data, commit_data, star_data, repo_data, follower_d
 <tspan x="15" y="435">                `!!8888888888888888899fT|!^"'</tspan>
 <tspan x="15" y="450">                  `!988888888899fT|!^"'</tspan>
 <tspan x="15" y="465">                    `!9899fT|!^"'</tspan>
-<tspan x="15" y="480">                      `!^"</tspan>
+<tspan x="15" y="480">                      `!^"'</tspan>
 </text>
 
 <text x="480" y="50" fill="#c9d1d9" font-family="monospace" font-size="14">
@@ -225,16 +225,16 @@ def create_light_mode_svg(age_data, commit_data, star_data, repo_data, follower_
 <tspan x="15" y="60">              ..,uod8BBBBBBBBBBBBBBBBRPFT?l!i:.</tspan>
 <tspan x="15" y="75">         ,=m8BBBBBBBBBBBBBBBRPFT?!||||||||||||||</tspan>
 <tspan x="15" y="90">         !...:!TVBBBRPFT||||||||||!!^^""'   ||||</tspan>
-<tspan x="15" y="105">        !.......:!?|||||!!^^""'            ||||</tspan>
-<tspan x="15" y="120">        !.........||||                     ||||</tspan>
-<tspan x="15" y="135">        !.........||||  ##                 ||||</tspan>
-<tspan x="15" y="150">        !.........||||                     ||||</tspan>
-<tspan x="15" y="165">        !.........||||                     ||||</tspan>
-<tspan x="15" y="180">        !.........||||                     ||||</tspan>
-<tspan x="15" y="195">        !.........||||                     ||||</tspan>
-<tspan x="15" y="210">        `.........||||                    ,||||</tspan>
-<tspan x="15" y="225">         .;.......||||               _.-!!|||||</tspan>
-<tspan x="15" y="240">  .,uodWBBBBb.....||||       _.-!!|||||||||!:'</tspan>
+<tspan x="15" y="105">         !.......:!?|||||!!^^""'            ||||</tspan>
+<tspan x="15" y="120">         !.........||||                     ||||</tspan>
+<tspan x="15" y="135">         !.........||||  ##                 ||||</tspan>
+<tspan x="15" y="150">         !.........||||                     ||||</tspan>
+<tspan x="15" y="165">         !.........||||                     ||||</tspan>
+<tspan x="15" y="180">         !.........||||                     ||||</tspan>
+<tspan x="15" y="195">         !.........||||                     ||||</tspan>
+<tspan x="15" y="210">         `.........||||                    ,||||</tspan>
+<tspan x="15" y="225">          .;.......||||               _.-!!|||||</tspan>
+<tspan x="15" y="240">   .,uodWBBBBb.....||||       _.-!!|||||||||!:'</tspan>
 <tspan x="15" y="255">!YBBBBBBBBBBBBBBb..!|||:..-!!|||||||!iof68BBBBBb....</tspan>
 <tspan x="15" y="270">!..YBBBBBBBBBBBBBBb!!||||||||!iof68BBBBBBRPFT?!::   `.</tspan>
 <tspan x="15" y="285">!....YBBBBBBBBBBBBBBbaaitf68BBBBBBRPFT?!:::::::::     `.</tspan>
@@ -250,7 +250,7 @@ def create_light_mode_svg(age_data, commit_data, star_data, repo_data, follower_
 <tspan x="15" y="435">                `!!8888888888888888899fT|!^"'</tspan>
 <tspan x="15" y="450">                  `!988888888899fT|!^"'</tspan>
 <tspan x="15" y="465">                    `!9899fT|!^"'</tspan>
-<tspan x="15" y="480">                      `!^"</tspan>
+<tspan x="15" y="480">                      `!^"'</tspan>
 </text>
 
 <text x="480" y="50" fill="#24292f" font-family="monospace" font-size="14">

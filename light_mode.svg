@@ -5,26 +5,37 @@
 <circle cx="30" cy="12" r="4" fill="#ffbd2e"/>
 <circle cx="45" cy="12" r="4" fill="#28ca42"/>
 
-<text x="15" y="50" fill="#00ff00" font-family="monospace" font-size="9">
-<tspan x="15" y="70">      ┌─────────────────────────────────┐</tspan>
-<tspan x="15" y="90">      │                                 │</tspan>
-<tspan x="15" y="110">      │    ████████████████████████     │</tspan>
-<tspan x="15" y="130">      │    ██                  ██       │</tspan>
-<tspan x="15" y="150">      │    ██   AI MATRIX     ██       │</tspan>
-<tspan x="15" y="170">      │    ██   CORE ONLINE   ██       │</tspan>
-<tspan x="15" y="190">      │    ██                  ██       │</tspan>
-<tspan x="15" y="210">      │    ████████████████████████     │</tspan>
-<tspan x="15" y="230">      │                                 │</tspan>
-<tspan x="15" y="250">      │             ● POWER             │</tspan>
-<tspan x="15" y="270">      │                                 │</tspan>
-<tspan x="15" y="290">      └─────────────────────────────────┘</tspan>
-<tspan x="15" y="310">         │ │ │ │ │ │ │ │ │ │ │ │ │</tspan>
-<tspan x="15" y="330">         └─┴─┴─┴─┴─┴─┴─┴─┴─┴─┴─┴─┘</tspan>
-<tspan x="15" y="350">       ╔═══════════════════════════╗</tspan>
-<tspan x="15" y="370">       ║   ████████████████████   ║</tspan>
-<tspan x="15" y="390">       ║   ██ CPU ████ GPU ██    ║</tspan>
-<tspan x="15" y="410">       ║   ████████████████████   ║</tspan>
-<tspan x="15" y="430">       ╚═══════════════════════════╝</tspan>
+<text x="15" y="50" fill="#00ff00" font-family="monospace" font-size="7">
+<tspan x="15" y="50">                       .,,uod8B8bou,,.</tspan>
+<tspan x="15" y="60">              ..,uod8BBBBBBBBBBBBBBBBRPFT?l!i:.</tspan>
+<tspan x="15" y="70">         ,=m8BBBBBBBBBBBBBBBRPFT?!||||||||||||||</tspan>
+<tspan x="15" y="80">         !...:!TVBBBRPFT||||||||||!!^^""'   ||||</tspan>
+<tspan x="15" y="90">         !.......:!?|||||!!^^""'            ||||</tspan>
+<tspan x="15" y="100">         !.........||||                     ||||</tspan>
+<tspan x="15" y="110">         !.........||||  ##                 ||||</tspan>
+<tspan x="15" y="120">         !.........||||                     ||||</tspan>
+<tspan x="15" y="130">         !.........||||                     ||||</tspan>
+<tspan x="15" y="140">         !.........||||                     ||||</tspan>
+<tspan x="15" y="150">         !.........||||                     ||||</tspan>
+<tspan x="15" y="160">         `.........||||                    ,||||</tspan>
+<tspan x="15" y="170">          .;.......||||               _.-!!|||||</tspan>
+<tspan x="15" y="180">   .,uodWBBBBb.....||||       _.-!!|||||||||!:'</tspan>
+<tspan x="15" y="190">!YBBBBBBBBBBBBBBb..!|||:..-!!|||||||!iof68BBBBBb....</tspan>
+<tspan x="15" y="200">!..YBBBBBBBBBBBBBBb!!||||||||!iof68BBBBBBRPFT?!::   `.</tspan>
+<tspan x="15" y="210">!....YBBBBBBBBBBBBBBbaaitf68BBBBBBRPFT?!:::::::::     `.</tspan>
+<tspan x="15" y="220">!......YBBBBBBBBBBBBBBBBBBBRPFT?!::::::;:!^"`;:::       `.</tspan>
+<tspan x="15" y="230">!........YBBBBBBBBBBRPFT?!::::::::::^''...::::::;         iBBbo.</tspan>
+<tspan x="15" y="240">`..........YBRPFT?!::::::::::::::::::::::::;iof68bo.      WBBBBbo.</tspan>
+<tspan x="15" y="250">  `..........:::::::::::::::::::::::;iof688888888888b.     `YBBBP^'</tspan>
+<tspan x="15" y="260">    `........::::::::::::::::;iof688888888888888888888b.     `</tspan>
+<tspan x="15" y="270">      `......:::::::::;iof688888888888888888888888888888b.</tspan>
+<tspan x="15" y="280">        `....:::;iof688888888888888888888888888888888899fT!</tspan>
+<tspan x="15" y="290">          `..::!8888888888888888888888888888888899fT|!^"'</tspan>
+<tspan x="15" y="300">            `' !!988888888888888888888888899fT|!^"'</tspan>
+<tspan x="15" y="310">                `!!8888888888888888899fT|!^"'</tspan>
+<tspan x="15" y="320">                  `!988888888899fT|!^"'</tspan>
+<tspan x="15" y="330">                    `!9899fT|!^"'</tspan>
+<tspan x="15" y="340">                      `!^"'</tspan>
 </text>
 
 <text x="520" y="60" fill="#24292f" font-family="monospace" font-size="16">

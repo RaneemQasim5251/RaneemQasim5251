@@ -1,169 +1,152 @@
-# 🚀 Dynamic GitHub Profile Setup Guide
+# GitHub Profile Setup Guide
 
-This repository contains a dynamic GitHub profile generator that automatically updates your profile README with live GitHub statistics in a beautiful terminal-style format.
+## Overview
+This repository contains a dynamic GitHub profile generator that creates SVG files with ASCII art on the left and terminal interface on the right, displaying real-time GitHub statistics.
 
-## 📋 Features
+## Features
+- **ASCII Art**: Green matrix-style art positioned on the left
+- **Terminal Interface**: Interactive terminal display on the right
+- **Real-time Stats**: GitHub repos, stars, commits, followers
+- **Dual Theme**: Dark and light mode support
+- **Professional Layout**: Clean, modern design with proper spacing
 
-- **🖥️ Terminal-style design** with authentic command prompts
-- **🌓 Dark/Light mode support** that adapts to GitHub theme
-- **📊 Live GitHub statistics** (repos, stars, commits, followers)
-- **🤖 Automatic updates** via GitHub Actions
-- **🧠 Neural network ASCII art** for AI/tech aesthetic
-- **🏆 Custom achievements** showcase
+## Setup Instructions
 
-## 🛠️ Setup Instructions
-
-### 1. Fork/Clone this Repository
-
-```bash
-git clone https://github.com/RaneemQasim5251/RaneemQasim5251.git
-cd RaneemQasim5251
-```
-
-### 2. Customize Your Information
-
-Edit `today.py` to update your personal information:
-
-```python
-# Line 313: Update your birth date
-age_data, age_time = perf_counter(daily_readme, datetime.datetime(1995, 1, 1))  # Change this date
-
-# Update achievements in the SVG generation functions (lines 130-200)
-# Modify achievements.txt section to reflect your accomplishments
-```
-
-### 3. Set Up GitHub Token (Optional)
-
-For live statistics, you'll need a GitHub Personal Access Token:
-
-1. Go to GitHub Settings > Developer settings > Personal access tokens
-2. Generate a new token with these permissions:
-   - `read:user` - Read user profile information
-   - `repo` - Access repository information
-3. Add the token to your repository secrets as `GITHUB_TOKEN`
-
-### 4. Enable GitHub Actions
-
-1. Go to your repository Settings > Actions > General
-2. Enable "Allow all actions and reusable workflows"
-3. Save changes
-
-### 5. Manual Run (Optional)
-
-To test locally or run manually:
+### 1. Environment Variables
+Create a `.env` file in your local development environment (DO NOT commit to repository):
 
 ```bash
-# Install dependencies
-pip install -r requirements.txt
+export ACCESS_TOKEN='your_github_personal_access_token_here'
+export USER_NAME='RaneemQasim5251'
+```
 
+### 2. GitHub Personal Access Token
+1. Go to GitHub Settings → Developer settings → Personal access tokens → Tokens (classic)
+2. Generate new token with these permissions:
+   - `public_repo`
+   - `read:user`
+   - `read:org`
+3. Copy the token and add it to your environment
+
+### 3. GitHub Actions (Recommended)
+For automated updates, add these secrets to your GitHub repository:
+1. Go to Settings → Secrets and variables → Actions
+2. Add repository secrets:
+   - `ACCESS_TOKEN`: Your GitHub personal access token
+   - `USER_NAME`: Your GitHub username
+
+### 4. Manual Generation
+Run locally with environment variables:
+```bash
 # Set environment variables
-export ACCESS_TOKEN=your_github_token_here
-export USER_NAME=your_username_here
+export ACCESS_TOKEN='your_token_here'
+export USER_NAME='RaneemQasim5251'
 
-# Run the script
+# Generate SVG files
 python today.py
 ```
 
-## 🎨 Customization Options
+### 5. GitHub Repository Setup
+1. Create a repository named exactly as your GitHub username: `RaneemQasim5251`
+2. Add the `README.md` file with proper SVG references
+3. Ensure the repository is public
+4. Files should be in the main branch
 
-### Achievements Section
-
-Update the achievements in the SVG generation functions:
-
-```python
-# In create_dark_mode_svg() and create_light_mode_svg()
-<tspan class="highlight">🏆 Your Achievement:</tspan> <tspan class="value">Your Description</tspan>
-<tspan class="highlight">🤖 Your Project:</tspan> <tspan class="value">Your Project Name</tspan>
-<tspan class="highlight">💓 Your Research:</tspan> <tspan class="value">Your Research Topic</tspan>
-<tspan class="highlight">🇸🇦 Your Impact:</tspan> <tspan class="value">Your Contribution</tspan>
+## File Structure
+```
+RaneemQasim5251/
+├── README.md           # Profile display file
+├── today.py           # SVG generator script
+├── dark_mode.svg      # Generated dark theme SVG
+├── light_mode.svg     # Generated light theme SVG
+├── requirements.txt   # Python dependencies
+└── SETUP.md          # This setup guide
 ```
 
-### Colors and Styling
+## SVG Specifications
+- **Dimensions**: 1000x600 pixels
+- **ASCII Art**: Font size 7px, positioned at x=15
+- **Terminal**: Font size 16px, positioned at x=520
+- **Colors**: GitHub-compatible color scheme
+- **Spacing**: Optimized for readability
 
-Modify the CSS classes in the SVG generation functions:
+## Troubleshooting
 
-```python
-# Dark mode colors
-.key { fill: #ffd700; }      # Gold for keys
-.value { fill: #7dd3fc; }    # Light blue for values
-.highlight { fill: #3fb950; } # Green for highlights
-.comment { fill: #8b949e; }  # Gray for comments
-.prompt { fill: #ffd700; }   # Gold for prompts
+### Common Issues:
+1. **401 Bad Credentials**: Check your GitHub token and environment variables
+2. **SVG Not Displaying**: Ensure repository is public and files are in main branch
+3. **Old Data**: GitHub may cache images, add `?v=timestamp` to force refresh
+4. **Layout Issues**: Verify SVG dimensions and positioning
+
+### GitHub Profile Not Updating:
+1. Check that your repository name matches your username exactly
+2. Ensure README.md is in the root directory
+3. Make sure the repository is public
+4. Try adding a cache-busting parameter to image URLs
+
+## Manual Testing
+Test your setup locally:
+```bash
+# Verify environment variables
+echo $ACCESS_TOKEN
+echo $USER_NAME
+
+# Test API connectivity
+curl -H "Authorization: token $ACCESS_TOKEN" https://api.github.com/user
+
+# Generate SVG files
+python today.py
+
+# Check generated files
+ls -la *.svg
 ```
 
-### ASCII Art
+## Dependencies
+Install required packages:
+```bash
+pip install -r requirements.txt
+```
 
-The neural network ASCII art can be modified in the SVG generation functions around lines 145-175.
-
-## 🔧 Troubleshooting
-
-### SVG Not Displaying
-
-1. **Check GitHub Actions**: Ensure the workflow is running successfully
-2. **Verify token permissions**: Make sure your GitHub token has the correct permissions
-3. **Clear browser cache**: Sometimes GitHub CDN caches old versions
-
-### API Rate Limits
-
-The script includes error handling for GitHub API rate limits. If you hit limits:
-
-- Wait for the limit to reset (usually 1 hour)
-- Reduce the frequency of updates in the workflow
-- Use a more specific token with only required permissions
-
-### Manual Update
-
-If automatic updates aren't working, you can trigger a manual update:
-
-1. Go to Actions tab in your repository
-2. Click "Update GitHub Profile" workflow
-3. Click "Run workflow" button
-
-## 📊 Statistics Included
-
-- **Repositories**: Total public repositories
-- **Stars**: Total stars earned across all repositories
-- **Commits**: Total commits made this year
-- **Followers**: Current follower count
-- **Age**: Dynamically calculated age
-- **Custom achievements**: Your personal accomplishments
-
-## 🕐 Update Schedule
-
-The profile automatically updates daily at midnight UTC. You can modify this in `.github/workflows/update-profile.yml`:
-
+## GitHub Actions Workflow (Optional)
+Create `.github/workflows/update-profile.yml` for automated updates:
 ```yaml
+name: Update Profile
 on:
   schedule:
-    - cron: '0 0 * * *'  # Daily at midnight UTC
-    # - cron: '0 */6 * * *'  # Every 6 hours
-    # - cron: '0 9 * * 1'    # Every Monday at 9 AM
+    - cron: '0 */6 * * *'  # Every 6 hours
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+    - name: Install dependencies
+      run: pip install -r requirements.txt
+    - name: Generate SVG
+      env:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        USER_NAME: ${{ secrets.USER_NAME }}
+      run: python today.py
+    - name: Commit files
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add -A
+        git diff --staged --quiet || git commit -m "Update profile SVG files"
+        git push
 ```
 
-## 🎉 Final Result
-
-Your GitHub profile will display a beautiful terminal-style interface showing:
-
-- **Terminal window** with realistic command prompts
-- **Neural network ASCII art** for the AI aesthetic
-- **Live GitHub statistics** updated automatically
-- **Personal achievements** and accomplishments
-- **Professional motto** and information
-- **Automatic theme switching** between dark and light modes
-
-## 🐛 Issues and Support
-
-If you encounter any issues:
-
-1. Check the GitHub Actions logs for error messages
-2. Verify your environment variables are set correctly
-3. Ensure your GitHub token has the required permissions
-4. Try running the script locally to debug
-
-## 🌟 Credits
-
-Inspired by [Andrew Grant's dynamic GitHub profile](https://github.com/Andrew6rant/Andrew6rant), adapted for AI/tech professionals with terminal-style aesthetics.
+## Support
+If you encounter issues:
+1. Check this setup guide
+2. Verify all environment variables are set
+3. Test API connectivity
+4. Ensure repository permissions are correct
 
 ---
-
-**Happy coding! 🚀** 
+*Profile last updated: Dynamic via GitHub Actions* 

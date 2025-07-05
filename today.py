@@ -141,145 +141,149 @@ def query_count(funct_id):
 
 def create_dark_mode_svg(age_data, commit_data, star_data, repo_data, follower_data):
     """Create a simple, GitHub-compatible dark mode SVG"""
-    svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500">
-<rect width="900" height="500" fill="#0d1117" rx="10"/>
-<rect x="0" y="0" width="900" height="25" fill="#161b22" rx="10"/>
+    svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600">
+<rect width="1000" height="600" fill="#0d1117" rx="10"/>
+<rect x="0" y="0" width="1000" height="25" fill="#161b22" rx="10"/>
 <circle cx="15" cy="12" r="4" fill="#ff5f57"/>
 <circle cx="30" cy="12" r="4" fill="#ffbd2e"/>
 <circle cx="45" cy="12" r="4" fill="#28ca42"/>
 
-<text x="15" y="50" fill="#00ff00" font-family="monospace" font-size="9">
+<text x="15" y="50" fill="#00ff00" font-family="monospace" font-size="7">
 <tspan x="15" y="50">                       .,,uod8B8bou,,.</tspan>
-<tspan x="15" y="62">              ..,uod8BBBBBBBBBBBBBBBBRPFT?l!i:.</tspan>
-<tspan x="15" y="74">         ,=m8BBBBBBBBBBBBBBBRPFT?!||||||||||||||</tspan>
-<tspan x="15" y="86">         !...:!TVBBBRPFT||||||||||!!^^""'   ||||</tspan>
-<tspan x="15" y="98">         !.......:!?|||||!!^^""'            ||||</tspan>
-<tspan x="15" y="110">         !.........||||                     ||||</tspan>
-<tspan x="15" y="122">         !.........||||  ##                 ||||</tspan>
-<tspan x="15" y="134">         !.........||||                     ||||</tspan>
-<tspan x="15" y="146">         !.........||||                     ||||</tspan>
-<tspan x="15" y="158">         !.........||||                     ||||</tspan>
-<tspan x="15" y="170">         !.........||||                     ||||</tspan>
-<tspan x="15" y="182">         `.........||||                    ,||||</tspan>
-<tspan x="15" y="194">          .;.......||||               _.-!!|||||</tspan>
-<tspan x="15" y="206">   .,uodWBBBBb.....||||       _.-!!|||||||||!:'</tspan>
-<tspan x="15" y="218">!YBBBBBBBBBBBBBBb..!|||:..-!!|||||||!iof68BBBBBb....</tspan>
-<tspan x="15" y="230">!..YBBBBBBBBBBBBBBb!!||||||||!iof68BBBBBBRPFT?!::   `.</tspan>
-<tspan x="15" y="242">!....YBBBBBBBBBBBBBBbaaitf68BBBBBBRPFT?!:::::::::     `.</tspan>
-<tspan x="15" y="254">!......YBBBBBBBBBBBBBBBBBBBRPFT?!::::::;:!^"`;:::       `.</tspan>
-<tspan x="15" y="266">!........YBBBBBBBBBBRPFT?!::::::::::^''...::::::;         iBBbo.</tspan>
-<tspan x="15" y="278">`..........YBRPFT?!::::::::::::::::::::::::;iof68bo.      WBBBBbo.</tspan>
-<tspan x="15" y="290">  `..........:::::::::::::::::::::::;iof688888888888b.     `YBBBP^'</tspan>
-<tspan x="15" y="302">    `........::::::::::::::::;iof688888888888888888888b.     `</tspan>
-<tspan x="15" y="314">      `......:::::::::;iof688888888888888888888888888888b.</tspan>
-<tspan x="15" y="326">        `....:::;iof688888888888888888888888888888888899fT!</tspan>
-<tspan x="15" y="338">          `..::!8888888888888888888888888888888899fT|!^"'</tspan>
-<tspan x="15" y="350">            `' !!988888888888888888888888899fT|!^"'</tspan>
-<tspan x="15" y="362">                `!!8888888888888888899fT|!^"'</tspan>
-<tspan x="15" y="374">                  `!988888888899fT|!^"'</tspan>
-<tspan x="15" y="386">                    `!9899fT|!^"'</tspan>
-<tspan x="15" y="398">                      `!^"'</tspan>
+<tspan x="15" y="60">              ..,uod8BBBBBBBBBBBBBBBBRPFT?l!i:.</tspan>
+<tspan x="15" y="70">         ,=m8BBBBBBBBBBBBBBBRPFT?!||||||||||||||</tspan>
+<tspan x="15" y="80">         !...:!TVBBBRPFT||||||||||!!^^""'   ||||</tspan>
+<tspan x="15" y="90">         !.......:!?|||||!!^^""'            ||||</tspan>
+<tspan x="15" y="100">         !.........||||                     ||||</tspan>
+<tspan x="15" y="110">         !.........||||  ##                 ||||</tspan>
+<tspan x="15" y="120">         !.........||||                     ||||</tspan>
+<tspan x="15" y="130">         !.........||||                     ||||</tspan>
+<tspan x="15" y="140">         !.........||||                     ||||</tspan>
+<tspan x="15" y="150">         !.........||||                     ||||</tspan>
+<tspan x="15" y="160">         `.........||||                    ,||||</tspan>
+<tspan x="15" y="170">          .;.......||||               _.-!!|||||</tspan>
+<tspan x="15" y="180">   .,uodWBBBBb.....||||       _.-!!|||||||||!:'</tspan>
+<tspan x="15" y="190">!YBBBBBBBBBBBBBBb..!|||:..-!!|||||||!iof68BBBBBb....</tspan>
+<tspan x="15" y="200">!..YBBBBBBBBBBBBBBb!!||||||||!iof68BBBBBBRPFT?!::   `.</tspan>
+<tspan x="15" y="210">!....YBBBBBBBBBBBBBBbaaitf68BBBBBBRPFT?!:::::::::     `.</tspan>
+<tspan x="15" y="220">!......YBBBBBBBBBBBBBBBBBBBRPFT?!::::::;:!^"`;:::       `.</tspan>
+<tspan x="15" y="230">!........YBBBBBBBBBBRPFT?!::::::::::^''...::::::;         iBBbo.</tspan>
+<tspan x="15" y="240">`..........YBRPFT?!::::::::::::::::::::::::;iof68bo.      WBBBBbo.</tspan>
+<tspan x="15" y="250">  `..........:::::::::::::::::::::::;iof688888888888b.     `YBBBP^'</tspan>
+<tspan x="15" y="260">    `........::::::::::::::::;iof688888888888888888888b.     `</tspan>
+<tspan x="15" y="270">      `......:::::::::;iof688888888888888888888888888888b.</tspan>
+<tspan x="15" y="280">        `....:::;iof688888888888888888888888888888888899fT!</tspan>
+<tspan x="15" y="290">          `..::!8888888888888888888888888888888899fT|!^"'</tspan>
+<tspan x="15" y="300">            `' !!988888888888888888888888899fT|!^"'</tspan>
+<tspan x="15" y="310">                `!!8888888888888888899fT|!^"'</tspan>
+<tspan x="15" y="320">                  `!988888888899fT|!^"'</tspan>
+<tspan x="15" y="330">                    `!9899fT|!^"'</tspan>
+<tspan x="15" y="340">                      `!^"'</tspan>
 </text>
 
-<text x="480" y="60" fill="#c9d1d9" font-family="monospace" font-size="16">
-<tspan x="480" y="60" fill="#ffd700">raneem@althaqafi</tspan><tspan fill="#8b949e"> ~$ whoami</tspan>
-<tspan x="480" y="85" fill="#8b949e">└─╼ </tspan><tspan fill="#ffd700">name:</tspan><tspan fill="#7dd3fc"> Raneem Althaqafi</tspan>
-<tspan x="480" y="105" fill="#8b949e">└─╼ </tspan><tspan fill="#ffd700">role:</tspan><tspan fill="#7dd3fc"> AI Engineer &amp; Researcher</tspan>
-<tspan x="480" y="125" fill="#8b949e">└─╼ </tspan><tspan fill="#ffd700">age:</tspan><tspan fill="#7dd3fc"> {age_data}</tspan>
-<tspan x="480" y="145" fill="#8b949e">└─╼ </tspan><tspan fill="#ffd700">location:</tspan><tspan fill="#7dd3fc"> Riyadh, Saudi Arabia</tspan>
+<text x="520" y="60" fill="#c9d1d9" font-family="monospace" font-size="16">
+<tspan x="520" y="60" fill="#ffd700">raneem@althaqafi</tspan><tspan fill="#8b949e"> ~$ whoami</tspan>
+<tspan x="520" y="85" fill="#8b949e">└─╼ </tspan><tspan fill="#ffd700">name:</tspan><tspan fill="#7dd3fc"> Raneem Althaqafi</tspan>
+<tspan x="520" y="105" fill="#8b949e">└─╼ </tspan><tspan fill="#ffd700">role:</tspan><tspan fill="#7dd3fc"> AI Engineer &amp; Researcher</tspan>
+<tspan x="520" y="125" fill="#8b949e">└─╼ </tspan><tspan fill="#ffd700">age:</tspan><tspan fill="#7dd3fc"> {age_data}</tspan>
+<tspan x="520" y="145" fill="#8b949e">└─╼ </tspan><tspan fill="#ffd700">location:</tspan><tspan fill="#7dd3fc"> Riyadh, Saudi Arabia</tspan>
 
-<tspan x="480" y="175" fill="#ffd700">raneem@althaqafi</tspan><tspan fill="#8b949e"> ~$ cat achievements.txt</tspan>
-<tspan x="480" y="195" fill="#8b949e">└─╼ </tspan><tspan fill="#3fb950">🏆 World Champion:</tspan><tspan fill="#7dd3fc"> Space Debris (1st/495)</tspan>
-<tspan x="480" y="215" fill="#8b949e">└─╼ </tspan><tspan fill="#3fb950">🤖 AI Innovation:</tspan><tspan fill="#7dd3fc"> Arabic Metro AI (Siraj)</tspan>
-<tspan x="480" y="235" fill="#8b949e">└─╼ </tspan><tspan fill="#3fb950">💓 Research:</tspan><tspan fill="#7dd3fc"> rPPG Heartbeat (94%)</tspan>
-<tspan x="480" y="255" fill="#8b949e">└─╼ </tspan><tspan fill="#3fb950">🇸🇦 Impact:</tspan><tspan fill="#7dd3fc"> Vision 2030 Contributor</tspan>
+<tspan x="520" y="175" fill="#ffd700">raneem@althaqafi</tspan><tspan fill="#8b949e"> ~$ cat achievements.txt</tspan>
+<tspan x="520" y="195" fill="#8b949e">└─╼ </tspan><tspan fill="#3fb950">🏆 World Champion:</tspan><tspan fill="#7dd3fc"> Space Debris (1st/495)</tspan>
+<tspan x="520" y="215" fill="#8b949e">└─╼ </tspan><tspan fill="#3fb950">🤖 AI Innovation:</tspan><tspan fill="#7dd3fc"> Arabic Metro AI (Siraj)</tspan>
+<tspan x="520" y="235" fill="#8b949e">└─╼ </tspan><tspan fill="#3fb950">💓 Research:</tspan><tspan fill="#7dd3fc"> rPPG Heartbeat (94%)</tspan>
+<tspan x="520" y="255" fill="#8b949e">└─╼ </tspan><tspan fill="#3fb950">🇸🇦 Impact:</tspan><tspan fill="#7dd3fc"> Vision 2030 Contributor</tspan>
 
-<tspan x="480" y="285" fill="#ffd700">raneem@althaqafi</tspan><tspan fill="#8b949e"> ~$ git status</tspan>
-<tspan x="480" y="305" fill="#8b949e">└─╼ </tspan><tspan fill="#ffd700">repos:</tspan><tspan fill="#7dd3fc"> {repo_data}</tspan><tspan fill="#8b949e"> │ </tspan><tspan fill="#ffd700">stars:</tspan><tspan fill="#7dd3fc"> {star_data}</tspan>
-<tspan x="480" y="325" fill="#8b949e">└─╼ </tspan><tspan fill="#ffd700">commits:</tspan><tspan fill="#7dd3fc"> {commit_data}</tspan><tspan fill="#8b949e"> │ </tspan><tspan fill="#ffd700">followers:</tspan><tspan fill="#7dd3fc"> {follower_data}</tspan>
+<tspan x="520" y="285" fill="#ffd700">raneem@althaqafi</tspan><tspan fill="#8b949e"> ~$ git status</tspan>
+<tspan x="520" y="305" fill="#8b949e">└─╼ </tspan><tspan fill="#ffd700">repos:</tspan><tspan fill="#7dd3fc"> {repo_data}</tspan><tspan fill="#8b949e"> │ </tspan><tspan fill="#ffd700">stars:</tspan><tspan fill="#7dd3fc"> {star_data}</tspan>
+<tspan x="520" y="325" fill="#8b949e">└─╼ </tspan><tspan fill="#ffd700">commits:</tspan><tspan fill="#7dd3fc"> {commit_data}</tspan><tspan fill="#8b949e"> │ </tspan><tspan fill="#ffd700">followers:</tspan><tspan fill="#7dd3fc"> {follower_data}</tspan>
 
-<tspan x="480" y="355" fill="#ffd700">raneem@althaqafi</tspan><tspan fill="#8b949e"> ~$ echo "Building AI future"</tspan>
-<tspan x="480" y="375" fill="#8b949e">└─╼ </tspan><tspan fill="#7dd3fc">"One neural network at a time" ✨</tspan>
+<tspan x="520" y="355" fill="#ffd700">raneem@althaqafi</tspan><tspan fill="#8b949e"> ~$ echo "Building AI future"</tspan>
+<tspan x="520" y="375" fill="#8b949e">└─╼ </tspan><tspan fill="#7dd3fc">"One neural network at a time" ✨</tspan>
 
-<tspan x="480" y="405" fill="#ffd700">raneem@althaqafi</tspan><tspan fill="#8b949e"> ~$ system_status</tspan>
-<tspan x="480" y="425" fill="#8b949e">└─╼ </tspan><tspan fill="#00ff00">MATRIX_MODE: ACTIVATED</tspan>
-<tspan x="480" y="445" fill="#8b949e">└─╼ </tspan><tspan fill="#00ff00">NEURAL_NETWORK: ONLINE</tspan>
-<tspan x="480" y="465" fill="#8b949e">└─╼ </tspan><tspan fill="#00ff00">AI_CORE: READY</tspan>
+<tspan x="520" y="405" fill="#ffd700">raneem@althaqafi</tspan><tspan fill="#8b949e"> ~$ system_status</tspan>
+<tspan x="520" y="425" fill="#8b949e">└─╼ </tspan><tspan fill="#00ff00">MATRIX_MODE: ACTIVATED</tspan>
+<tspan x="520" y="445" fill="#8b949e">└─╼ </tspan><tspan fill="#00ff00">NEURAL_NETWORK: ONLINE</tspan>
+<tspan x="520" y="465" fill="#8b949e">└─╼ </tspan><tspan fill="#00ff00">AI_CORE: READY</tspan>
 
-<tspan x="480" y="485" fill="#ffd700">raneem@althaqafi</tspan><tspan fill="#8b949e"> ~$ </tspan><tspan fill="#3fb950">█</tspan>
+<tspan x="520" y="485" fill="#ffd700">raneem@althaqafi</tspan><tspan fill="#8b949e"> ~$ </tspan><tspan fill="#3fb950">█</tspan>
 </text>
+
+<rect x="0" y="580" width="1000" height="20" fill="#0d1117" opacity="0"/>
 </svg>'''
     return svg_content
 
 def create_light_mode_svg(age_data, commit_data, star_data, repo_data, follower_data):
     """Create a simple, GitHub-compatible light mode SVG"""
-    svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500">
-<rect width="900" height="500" fill="#ffffff" stroke="#d1d9e0" stroke-width="2" rx="10"/>
-<rect x="0" y="0" width="900" height="25" fill="#f6f8fa" rx="10"/>
+    svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600">
+<rect width="1000" height="600" fill="#ffffff" stroke="#d1d9e0" stroke-width="2" rx="10"/>
+<rect x="0" y="0" width="1000" height="25" fill="#f6f8fa" rx="10"/>
 <circle cx="15" cy="12" r="4" fill="#ff5f57"/>
 <circle cx="30" cy="12" r="4" fill="#ffbd2e"/>
 <circle cx="45" cy="12" r="4" fill="#28ca42"/>
 
-<text x="15" y="50" fill="#00ff00" font-family="monospace" font-size="9">
+<text x="15" y="50" fill="#00ff00" font-family="monospace" font-size="7">
 <tspan x="15" y="50">                       .,,uod8B8bou,,.</tspan>
-<tspan x="15" y="62">              ..,uod8BBBBBBBBBBBBBBBBRPFT?l!i:.</tspan>
-<tspan x="15" y="74">         ,=m8BBBBBBBBBBBBBBBRPFT?!||||||||||||||</tspan>
-<tspan x="15" y="86">         !...:!TVBBBRPFT||||||||||!!^^""'   ||||</tspan>
-<tspan x="15" y="98">         !.......:!?|||||!!^^""'            ||||</tspan>
-<tspan x="15" y="110">         !.........||||                     ||||</tspan>
-<tspan x="15" y="122">         !.........||||  ##                 ||||</tspan>
-<tspan x="15" y="134">         !.........||||                     ||||</tspan>
-<tspan x="15" y="146">         !.........||||                     ||||</tspan>
-<tspan x="15" y="158">         !.........||||                     ||||</tspan>
-<tspan x="15" y="170">         !.........||||                     ||||</tspan>
-<tspan x="15" y="182">         `.........||||                    ,||||</tspan>
-<tspan x="15" y="194">          .;.......||||               _.-!!|||||</tspan>
-<tspan x="15" y="206">   .,uodWBBBBb.....||||       _.-!!|||||||||!:'</tspan>
-<tspan x="15" y="218">!YBBBBBBBBBBBBBBb..!|||:..-!!|||||||!iof68BBBBBb....</tspan>
-<tspan x="15" y="230">!..YBBBBBBBBBBBBBBb!!||||||||!iof68BBBBBBRPFT?!::   `.</tspan>
-<tspan x="15" y="242">!....YBBBBBBBBBBBBBBbaaitf68BBBBBBRPFT?!:::::::::     `.</tspan>
-<tspan x="15" y="254">!......YBBBBBBBBBBBBBBBBBBBRPFT?!::::::;:!^"`;:::       `.</tspan>
-<tspan x="15" y="266">!........YBBBBBBBBBBRPFT?!::::::::::^''...::::::;         iBBbo.</tspan>
-<tspan x="15" y="278">`..........YBRPFT?!::::::::::::::::::::::::;iof68bo.      WBBBBbo.</tspan>
-<tspan x="15" y="290">  `..........:::::::::::::::::::::::;iof688888888888b.     `YBBBP^'</tspan>
-<tspan x="15" y="302">    `........::::::::::::::::;iof688888888888888888888b.     `</tspan>
-<tspan x="15" y="314">      `......:::::::::;iof688888888888888888888888888888b.</tspan>
-<tspan x="15" y="326">        `....:::;iof688888888888888888888888888888888899fT!</tspan>
-<tspan x="15" y="338">          `..::!8888888888888888888888888888888899fT|!^"'</tspan>
-<tspan x="15" y="350">            `' !!988888888888888888888888899fT|!^"'</tspan>
-<tspan x="15" y="362">                `!!8888888888888888899fT|!^"'</tspan>
-<tspan x="15" y="374">                  `!988888888899fT|!^"'</tspan>
-<tspan x="15" y="386">                    `!9899fT|!^"'</tspan>
-<tspan x="15" y="398">                      `!^"'</tspan>
+<tspan x="15" y="60">              ..,uod8BBBBBBBBBBBBBBBBRPFT?l!i:.</tspan>
+<tspan x="15" y="70">         ,=m8BBBBBBBBBBBBBBBRPFT?!||||||||||||||</tspan>
+<tspan x="15" y="80">         !...:!TVBBBRPFT||||||||||!!^^""'   ||||</tspan>
+<tspan x="15" y="90">         !.......:!?|||||!!^^""'            ||||</tspan>
+<tspan x="15" y="100">         !.........||||                     ||||</tspan>
+<tspan x="15" y="110">         !.........||||  ##                 ||||</tspan>
+<tspan x="15" y="120">         !.........||||                     ||||</tspan>
+<tspan x="15" y="130">         !.........||||                     ||||</tspan>
+<tspan x="15" y="140">         !.........||||                     ||||</tspan>
+<tspan x="15" y="150">         !.........||||                     ||||</tspan>
+<tspan x="15" y="160">         `.........||||                    ,||||</tspan>
+<tspan x="15" y="170">          .;.......||||               _.-!!|||||</tspan>
+<tspan x="15" y="180">   .,uodWBBBBb.....||||       _.-!!|||||||||!:'</tspan>
+<tspan x="15" y="190">!YBBBBBBBBBBBBBBb..!|||:..-!!|||||||!iof68BBBBBb....</tspan>
+<tspan x="15" y="200">!..YBBBBBBBBBBBBBBb!!||||||||!iof68BBBBBBRPFT?!::   `.</tspan>
+<tspan x="15" y="210">!....YBBBBBBBBBBBBBBbaaitf68BBBBBBRPFT?!:::::::::     `.</tspan>
+<tspan x="15" y="220">!......YBBBBBBBBBBBBBBBBBBBRPFT?!::::::;:!^"`;:::       `.</tspan>
+<tspan x="15" y="230">!........YBBBBBBBBBBRPFT?!::::::::::^''...::::::;         iBBbo.</tspan>
+<tspan x="15" y="240">`..........YBRPFT?!::::::::::::::::::::::::;iof68bo.      WBBBBbo.</tspan>
+<tspan x="15" y="250">  `..........:::::::::::::::::::::::;iof688888888888b.     `YBBBP^'</tspan>
+<tspan x="15" y="260">    `........::::::::::::::::;iof688888888888888888888b.     `</tspan>
+<tspan x="15" y="270">      `......:::::::::;iof688888888888888888888888888888b.</tspan>
+<tspan x="15" y="280">        `....:::;iof688888888888888888888888888888888899fT!</tspan>
+<tspan x="15" y="290">          `..::!8888888888888888888888888888888899fT|!^"'</tspan>
+<tspan x="15" y="300">            `' !!988888888888888888888888899fT|!^"'</tspan>
+<tspan x="15" y="310">                `!!8888888888888888899fT|!^"'</tspan>
+<tspan x="15" y="320">                  `!988888888899fT|!^"'</tspan>
+<tspan x="15" y="330">                    `!9899fT|!^"'</tspan>
+<tspan x="15" y="340">                      `!^"'</tspan>
 </text>
 
-<text x="480" y="60" fill="#24292f" font-family="monospace" font-size="16">
-<tspan x="480" y="60" fill="#0969da">raneem@althaqafi</tspan><tspan fill="#6f7781"> ~$ whoami</tspan>
-<tspan x="480" y="85" fill="#6f7781">└─╼ </tspan><tspan fill="#0969da">name:</tspan><tspan fill="#8250df"> Raneem Althaqafi</tspan>
-<tspan x="480" y="105" fill="#6f7781">└─╼ </tspan><tspan fill="#0969da">role:</tspan><tspan fill="#8250df"> AI Engineer &amp; Researcher</tspan>
-<tspan x="480" y="125" fill="#6f7781">└─╼ </tspan><tspan fill="#0969da">age:</tspan><tspan fill="#8250df"> {age_data}</tspan>
-<tspan x="480" y="145" fill="#6f7781">└─╼ </tspan><tspan fill="#0969da">location:</tspan><tspan fill="#8250df"> Riyadh, Saudi Arabia</tspan>
+<text x="520" y="60" fill="#24292f" font-family="monospace" font-size="16">
+<tspan x="520" y="60" fill="#0969da">raneem@althaqafi</tspan><tspan fill="#6f7781"> ~$ whoami</tspan>
+<tspan x="520" y="85" fill="#6f7781">└─╼ </tspan><tspan fill="#0969da">name:</tspan><tspan fill="#8250df"> Raneem Althaqafi</tspan>
+<tspan x="520" y="105" fill="#6f7781">└─╼ </tspan><tspan fill="#0969da">role:</tspan><tspan fill="#8250df"> AI Engineer &amp; Researcher</tspan>
+<tspan x="520" y="125" fill="#6f7781">└─╼ </tspan><tspan fill="#0969da">age:</tspan><tspan fill="#8250df"> {age_data}</tspan>
+<tspan x="520" y="145" fill="#6f7781">└─╼ </tspan><tspan fill="#0969da">location:</tspan><tspan fill="#8250df"> Riyadh, Saudi Arabia</tspan>
 
-<tspan x="480" y="175" fill="#0969da">raneem@althaqafi</tspan><tspan fill="#6f7781"> ~$ cat achievements.txt</tspan>
-<tspan x="480" y="195" fill="#6f7781">└─╼ </tspan><tspan fill="#1a7f37">🏆 World Champion:</tspan><tspan fill="#8250df"> Space Debris (1st/495)</tspan>
-<tspan x="480" y="215" fill="#6f7781">└─╼ </tspan><tspan fill="#1a7f37">🤖 AI Innovation:</tspan><tspan fill="#8250df"> Arabic Metro AI (Siraj)</tspan>
-<tspan x="480" y="235" fill="#6f7781">└─╼ </tspan><tspan fill="#1a7f37">💓 Research:</tspan><tspan fill="#8250df"> rPPG Heartbeat (94%)</tspan>
-<tspan x="480" y="255" fill="#6f7781">└─╼ </tspan><tspan fill="#1a7f37">🇸🇦 Impact:</tspan><tspan fill="#8250df"> Vision 2030 Contributor</tspan>
+<tspan x="520" y="175" fill="#0969da">raneem@althaqafi</tspan><tspan fill="#6f7781"> ~$ cat achievements.txt</tspan>
+<tspan x="520" y="195" fill="#6f7781">└─╼ </tspan><tspan fill="#1a7f37">🏆 World Champion:</tspan><tspan fill="#8250df"> Space Debris (1st/495)</tspan>
+<tspan x="520" y="215" fill="#6f7781">└─╼ </tspan><tspan fill="#1a7f37">🤖 AI Innovation:</tspan><tspan fill="#8250df"> Arabic Metro AI (Siraj)</tspan>
+<tspan x="520" y="235" fill="#6f7781">└─╼ </tspan><tspan fill="#1a7f37">💓 Research:</tspan><tspan fill="#8250df"> rPPG Heartbeat (94%)</tspan>
+<tspan x="520" y="255" fill="#6f7781">└─╼ </tspan><tspan fill="#1a7f37">🇸🇦 Impact:</tspan><tspan fill="#8250df"> Vision 2030 Contributor</tspan>
 
-<tspan x="480" y="285" fill="#0969da">raneem@althaqafi</tspan><tspan fill="#6f7781"> ~$ git status</tspan>
-<tspan x="480" y="305" fill="#6f7781">└─╼ </tspan><tspan fill="#0969da">repos:</tspan><tspan fill="#8250df"> {repo_data}</tspan><tspan fill="#6f7781"> │ </tspan><tspan fill="#0969da">stars:</tspan><tspan fill="#8250df"> {star_data}</tspan>
-<tspan x="480" y="325" fill="#6f7781">└─╼ </tspan><tspan fill="#0969da">commits:</tspan><tspan fill="#8250df"> {commit_data}</tspan><tspan fill="#6f7781"> │ </tspan><tspan fill="#0969da">followers:</tspan><tspan fill="#8250df"> {follower_data}</tspan>
+<tspan x="520" y="285" fill="#0969da">raneem@althaqafi</tspan><tspan fill="#6f7781"> ~$ git status</tspan>
+<tspan x="520" y="305" fill="#6f7781">└─╼ </tspan><tspan fill="#0969da">repos:</tspan><tspan fill="#8250df"> {repo_data}</tspan><tspan fill="#6f7781"> │ </tspan><tspan fill="#0969da">stars:</tspan><tspan fill="#8250df"> {star_data}</tspan>
+<tspan x="520" y="325" fill="#6f7781">└─╼ </tspan><tspan fill="#0969da">commits:</tspan><tspan fill="#8250df"> {commit_data}</tspan><tspan fill="#6f7781"> │ </tspan><tspan fill="#0969da">followers:</tspan><tspan fill="#8250df"> {follower_data}</tspan>
 
-<tspan x="480" y="355" fill="#0969da">raneem@althaqafi</tspan><tspan fill="#6f7781"> ~$ echo "Building AI future"</tspan>
-<tspan x="480" y="375" fill="#6f7781">└─╼ </tspan><tspan fill="#8250df">"One neural network at a time" ✨</tspan>
+<tspan x="520" y="355" fill="#0969da">raneem@althaqafi</tspan><tspan fill="#6f7781"> ~$ echo "Building AI future"</tspan>
+<tspan x="520" y="375" fill="#6f7781">└─╼ </tspan><tspan fill="#8250df">"One neural network at a time" ✨</tspan>
 
-<tspan x="480" y="405" fill="#0969da">raneem@althaqafi</tspan><tspan fill="#6f7781"> ~$ system_status</tspan>
-<tspan x="480" y="425" fill="#6f7781">└─╼ </tspan><tspan fill="#00ff00">MATRIX_MODE: ACTIVATED</tspan>
-<tspan x="480" y="445" fill="#6f7781">└─╼ </tspan><tspan fill="#00ff00">NEURAL_NETWORK: ONLINE</tspan>
-<tspan x="480" y="465" fill="#6f7781">└─╼ </tspan><tspan fill="#00ff00">AI_CORE: READY</tspan>
+<tspan x="520" y="405" fill="#0969da">raneem@althaqafi</tspan><tspan fill="#6f7781"> ~$ system_status</tspan>
+<tspan x="520" y="425" fill="#6f7781">└─╼ </tspan><tspan fill="#00ff00">MATRIX_MODE: ACTIVATED</tspan>
+<tspan x="520" y="445" fill="#6f7781">└─╼ </tspan><tspan fill="#00ff00">NEURAL_NETWORK: ONLINE</tspan>
+<tspan x="520" y="465" fill="#6f7781">└─╼ </tspan><tspan fill="#00ff00">AI_CORE: READY</tspan>
 
-<tspan x="480" y="485" fill="#0969da">raneem@althaqafi</tspan><tspan fill="#6f7781"> ~$ </tspan><tspan fill="#1a7f37">█</tspan>
+<tspan x="520" y="485" fill="#0969da">raneem@althaqafi</tspan><tspan fill="#6f7781"> ~$ </tspan><tspan fill="#1a7f37">█</tspan>
 </text>
+
+<rect x="0" y="580" width="1000" height="20" fill="#ffffff" opacity="0"/>
 </svg>'''
     return svg_content
 

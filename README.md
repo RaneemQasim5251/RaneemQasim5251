@@ -40,10 +40,10 @@
 ---
 
 ## Tech Stack
-**AI/ML**: TensorFlow, PyTorch, OpenCV, Scikit-learn  
-**Languages**: Python, JavaScript, C++, SQL  
-**Cloud**: AWS, Google Cloud, Azure  
-**Special**: Computer Vision, NLP, IoT, Raspberry Pi
+**AI/ML**: `TensorFlow`, `PyTorch`, `OpenCV`, `scikit-learn`  
+**Languages**: `Python`, `JavaScript`, `C++`, `SQL`  
+**Cloud**: `AWS`, `Google Cloud`, `Azure`  
+**Special**: `Computer Vision`, `NLP`, `IoT`, `Raspberry Pi`
 
 ## Current Focus
 Working on next-generation AI solutions for smart cities and healthcare technology.
